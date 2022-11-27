@@ -7,8 +7,12 @@ site_description: Wiki Page
 nav:
   - 🛠 Tools:
     - index: tools/index.md
+    - 🖥 Software Engineering:
+      - index: tools/se/index.md
+      - Hydra: tools/se/hydra.md
+      - Git & GitHub: tools/se/git.md
     - 💡 Compute:
-      - 🌈 Google Colab: tools/compute/google-colab.md
+      - Google Colab: tools/compute/google-colab.md
     - 🏝 Resource:
       - 🌅 Environment: tools/resource/environment.md
       - 🐳 Docker: tools/resource/docker.md
@@ -16,8 +20,10 @@ nav:
     - 🛢 Data:
       - index: tools/data/index.md
     - 🤔 Other:
-      - 💻 MacOS: tools/other/macos.md
-      - 🖊 Markdown: tools/other/markdown.md
+      - index: tools/other/index.md
+      - MacOS: tools/other/macos.md
+      - Markdown: tools/other/markdown.md
+      - VS Code: tools/other/vscode.md
 
   - 📊 Data Science:
     - index:          ds/index.md
