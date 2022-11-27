@@ -9,7 +9,7 @@ nav:
     - index: tools/index.md
     - 🖥 Software Engineering:
       - index: tools/se/index.md
-      - Hydra: tools/se/hydra.md
+      - Configuration: tools/se/config.md
       - Git & GitHub: tools/se/git.md
     - 🎨 Data Science:
       - index: tools/ds/index.md
