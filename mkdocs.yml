@@ -10,10 +10,15 @@ nav:
     - 💡 Compute:
       - 🌈 Google Colab: tools/compute/google-colab.md
     - 🏝 Resource:
-      - 🌅 Environment:  tools/resource/environment.md
+      - 🌅 Environment: tools/resource/environment.md
+      - 🐳 Docker: tools/resource/docker.md
+      - 🎻 Kubernetes: tools/resource/kubernetes.md
+    - 🛢 Data:
+      - index: tools/data/index.md
     - 🤔 Other:
-      - 💻 MacOS:        tools/other/macos.md
-      - 🖊 Markdown:     tools/other/markdown.md
+      - 💻 MacOS: tools/other/macos.md
+      - 🖊 Markdown: tools/other/markdown.md
+
   - 📊 Data Science:
     - index:          ds/index.md
     - ⭐️ Machine Learning:
