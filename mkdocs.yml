@@ -19,6 +19,7 @@ nav:
       - 🎻 Kubernetes: tools/resource/kubernetes.md
     - 🛢 Data:
       - index: tools/data/index.md
+      - EDA: tools/data/eda.md
     - 🤔 Other:
       - index: tools/other/index.md
       - MacOS: tools/other/macos.md
