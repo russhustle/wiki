@@ -85,7 +85,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-edit_uri: edit/master/docs    # 编辑按钮跳转的链接
+edit_uri: edit/main/docs    # 编辑按钮跳转的链接
 ## [top-right corner]
 repo_url: https://github.com/Sihan-A/wiki # 右上角点击跳转的链接
 repo_name: Sihan-A/wiki          # 右上角的名字
