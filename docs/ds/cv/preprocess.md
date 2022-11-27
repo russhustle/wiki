@@ -1,7 +1,6 @@
 Preprocess
 ===
 
-<<<<<<< HEAD
 Mean & Standard Deviation
 ---
 
@@ -51,6 +50,3 @@ def mean_std_dataset(dataset):
     std = [stdR, stdG, stdB]
     return mean, std
 ```
-=======
-
->>>>>>> parent of 8e4a249 (Update preprocess.md)
