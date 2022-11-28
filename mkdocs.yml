@@ -25,6 +25,11 @@ nav:
       - Time Series: tools/ds/time_series.md
       - Explainble AI: tools/ds/explainable.md
     
+    - 📦 Deep Learning:
+      - index: tools/dl/index.md
+      - PyTorch: tools/dl/torch.md
+      - PyTorch Lightning: tools/dl/lightning.md
+      - TensorFlow & Keras: tools/dl/tf.md
     
     - 📸 Computer Vision:
       - index: tools/cv/index.md
@@ -55,7 +60,8 @@ nav:
       - Annotations: tools/data/annotation.md
       - Utilities: tools/data/utils.md
     
-    
+    - Cloud:
+      - index: tools/cloud/index.md
     - 🤔 Other:
       - index: tools/other/index.md
       - MacOS: tools/other/macos.md
