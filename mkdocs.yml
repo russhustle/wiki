@@ -15,6 +15,7 @@ nav:
     - 🎨 Data Science:
       - index: tools/ds/index.md
       - DS Libraries: tools/ds/ds_framework.md
+      - Visualization: tools/ds/viz.md
       - AutoML: tools/ds/automl.md
       - Time Series: tools/ds/time_series.md
       - Explainble AI: tools/ds/explainable.md
