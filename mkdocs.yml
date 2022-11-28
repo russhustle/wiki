@@ -9,6 +9,7 @@ nav:
     - index: tools/index.md
     - 🖥 Software Engineering:
       - index: tools/se/index.md
+      - Python: tools/se/python.md
       - Configuration: tools/se/config.md
       - Linux: tools/se/linux.md
       - Git & GitHub: tools/se/git.md
@@ -26,10 +27,14 @@ nav:
       - PyTorch: tools/dl/torch.md
       - PyTorch Lightning: tools/dl/lightning.md
       - TensorFlow & Keras: tools/dl/tf.md
+      - fast.ai: tools/dl/fastai.md
     - 📸 Computer Vision:
       - index: tools/cv/index.md
       - Object Detection: tools/cv/object_detection.md
       - Anomaly Detection: tools/cv/anomaly.md
+    - 📓 NLP:
+      - index: tools/nlp/index.md
+      - 🤗 Hugging Face: tools/nlp/huggingface.md
     - 💡 Compute:
       - index: tools/compute/index.md
       - Google Colab: tools/compute/google-colab.md
@@ -40,9 +45,16 @@ nav:
       - 🛟 Kubernetes: tools/resource/kubernetes.md
     - 🔗 MLOps:
       - index: tools/mlops/index.md
-      - Container for ML: tools/mlops/container_ml.md  
+      - Container for ML: tools/mlops/container_ml.md
+      - Kubeflow: tools/mlops/kubeflow.md
+    - 🔄 CI/CD:
+      - index: tools/ci/index.md
+      - Jenkins: tools/ci/jenkins.md
+      - GitHub Actions: tools/ci/github_actions.md
+      - CircleCI: tools/ci/circleci.md
     - 🛢 Data:
       - index: tools/data/index.md
+      - Analysis: tools/data/analysis.md
       - EDA: tools/data/eda.md
       - DVC: tools/data/dvc.md
       - Annotations: tools/data/annotation.md
