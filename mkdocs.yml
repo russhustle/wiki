@@ -7,15 +7,11 @@ site_description: Wiki Page
 nav:
   - 🛠 Tools:
     - index: tools/index.md
-    
-    
     - 🖥 Software Engineering:
       - index: tools/se/index.md
       - Configuration: tools/se/config.md
       - Linux: tools/se/linux.md
       - Git & GitHub: tools/se/git.md
-    
-    
     - 🎨 Data Science:
       - index: tools/ds/index.md
       - DS Libraries: tools/ds/ds_framework.md
@@ -24,45 +20,38 @@ nav:
       - AutoML: tools/ds/automl.md
       - Time Series: tools/ds/time_series.md
       - Explainble AI: tools/ds/explainable.md
-    
     - 📦 Deep Learning:
       - index: tools/dl/index.md
       - PyTorch: tools/dl/torch.md
       - PyTorch Lightning: tools/dl/lightning.md
       - TensorFlow & Keras: tools/dl/tf.md
-    
     - 📸 Computer Vision:
       - index: tools/cv/index.md
       - Object Detection: tools/cv/object_detection.md
-    
-    
     - 💡 Compute:
       - index: tools/compute/index.md
       - Google Colab: tools/compute/google-colab.md
-    
-    
     - 🏝 Resource Management:
       - index: tools/resource/index.md
       - 🌅 Environment: tools/resource/environment.md
       - 🐳 Docker: tools/resource/docker.md
       - 🛟 Kubernetes: tools/resource/kubernetes.md
-    
-    
     - 🔗 MLOps:
       - index: tools/mlops/index.md
-      - Container for ML: tools/mlops/container_ml.md
-    
-    
+      - Container for ML: tools/mlops/container_ml.md  
     - 🛢 Data:
       - index: tools/data/index.md
       - EDA: tools/data/eda.md
       - DVC: tools/data/dvc.md
       - Annotations: tools/data/annotation.md
       - Utilities: tools/data/utils.md
-    
     - 🌥 Cloud:
       - index: tools/cloud/index.md
       - AWS: tools/cloud/aws.md
+    - 🚎 Deployment:
+      - index: tools/deploy/index.md
+      - Backend: tools/deploy/backend.md
+      - Frontend: tools/deploy/frontend.md
     - 🤔 Other:
       - index: tools/other/index.md
       - MacOS: tools/other/macos.md
@@ -110,8 +99,11 @@ nav:
         - 第20单元: learn/japanese/n2-vocabulary/第20单元.md
       - 日语动词变形: learn/japanese/日语动词变形.md
     - 🌨 AWS:
+      - index: learn/aws/index.md
       - Cloud Practitioner: learn/aws/ccp.md
-     
+  - 📚 Projects:
+    - index: projects/index.md
+
 # [UI]
 ## [top]
 theme:

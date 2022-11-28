@@ -275,15 +275,16 @@ AWS Cloud Practitioner Summary
 11. Edge Computing: Process data while it’s being created on an edge location; <u>Snowball Edge and Snowcone</u>
 12. **OpsHub**: desktop application to manage Snow Family devices
 13. **AWS Storage Gateway**: <u>Hybrid storage service</u> to allow on-premises to seamlessly use the AWS Cloud
-    - Types: File Gateway; Volume Gateway; Tape Gateway
-    09-Databases ✅
+     - Types: File Gateway; Volume Gateway; Tape Gateway
+
+09-Databases ✅
 ---
 
 1. Databases
     1. Relational Databases (RDB)
     2. NoSQL Databases (NDB)
 
-2. **RDS** (Relational Database Service): Managed RDB service
+2. **RDS** (Relational Database Service): <u>Managed</u> RDB service
     - Postgres SQL; MySQL; MariaDB; Oracle; Microsoft SQL Server; Aurora (AWS Proprietary database)
 
 3. **Aurora**: AWS <u>proprietary</u>, <u>cloud-optimized</u> RDB service
@@ -351,12 +352,12 @@ AWS Cloud Practitioner Summary
 
     - Differences from Lambda
 
-        |            Lambda            |                         Batch                          |
-        | :--------------------------: | :----------------------------------------------------: |
-        |          Time limit          |                     No time limit                      |
-        |       Limited runtimes       | Any runtime as long as it’s packaged as a Docker image |
-        | Limited temporary disk space |      Rely on EBS / instance store for disk space       |
-        |          Serverless          |         Relies on EC2 (can be managed by AWS)          |
+        | Lambda                       | Batch                                                  |
+        | :--------------------------- | :----------------------------------------------------- |
+        | Time limit                   | No time limit                                          |
+        | Limited runtimes             | Any runtime as long as it’s packaged as a Docker image |
+        | Limited temporary disk space | Rely on EBS / instance store for disk space            |
+        | Serverless                   | Relies on EC2 (can be managed by AWS)                  |
 
 9. **Lightsail**: Predictable & low pricing for simple application & DB stacks
 
@@ -420,7 +421,7 @@ AWS Cloud Practitioner Summary
         1. S3 bucket; CloudFront Origin Access Identity (OAI)
         2. Custom Origin (HTTP); EC2 instance, S3 website
 
-    <img src="aws-cli-images/Xnip2022-08-01_20-17-17.png" alt="Xnip2022-08-01_20-17-17" style="zoom:67%;" />
+        ![CloudFront](imgs/CloudFront.png)
 
     - CloudFront vs S3 CRR
         1. CloudFront: Global; cached for A TTL (maybe a day); good for static content
@@ -428,7 +429,7 @@ AWS Cloud Practitioner Summary
 
 4. **S3 Transfer Acceleration**: accelerate global uploads & downloads into Amazon S3 using an AWS <u>edge location</u>
 
-    <img src="aws-cli-images/S3-Transfer-Acceleration.png" alt="S3-Transfer-Acceleration" style="zoom:67%;" />
+    ![s3-transfer-acceleration](imgs/s3-transfer-acceleration.png)
 
 5. **AWS Global Accelerator**: improve global application availability and performance using the <u>AWS global network</u>
 
@@ -455,10 +456,17 @@ AWS Cloud Practitioner Summary
 
 9. Global Applications Architecture
 
-    1. Single Region, Single AZ: ✘ High Availability; ✘ Global Latency; Difficulty ★☆☆☆
-    2. Single Region, Multi AZ: ✔︎ High Availability; ✘ Global Latency; Difficulty ★★☆☆
-    3. Multi Region, Active-Passive: ✔︎ Global Reads’ Latency; ✘ Global Writes’ Latency; Difficulty ★★★☆
-    4. Multi Region, Active-Active: ✔︎ Global Reads’ Latency; ✔︎ Global Writes’ Latency; Difficulty ★★★★
+    |      |                          | High Availability | Global Latency | Difficulty |
+    | ---- | ------------------------ | ----------------- | -------------- | ---------- |
+    | 1    | Single Region, Single AZ | ✘                 | ✘              | ★☆☆☆       |
+    | 2    | Single Region, Multi AZ  | ✔︎                 | ✘              | ★★☆☆       |
+    
+    |      |                              | Global Reads’ Latency | Global Writes’ Latency | Difficulty |
+    | ---- | ---------------------------- | --------------------- | ---------------------- | ---------- |
+    | 3    | Multi Region, Active-Passive | ✔︎                     | ✘                      | ★★★☆       |
+    | 4    | Multi Region, Active-Active  | ✔︎                     | ✔︎                      | ★★★★       |
+    
+    
 
 13-Cloud Integration
 ---
@@ -499,13 +507,12 @@ AWS Cloud Practitioner Summary
     - Private Subnet
     - Route Tables: define access to the internet and between subnets
 
-    <img src="https://docs.aws.amazon.com/vpc/latest/userguide/images/subnet-diagram.png" style="zoom:75%;" />
+    ![subnet](https://docs.aws.amazon.com/vpc/latest/userguide/images/subnet-diagram.png)
 
 3. **Internet Gateway**: at the VPC level, provide Internet Access
 
 4. **NAT Gateways** (AWS-managed) & **NAT Instances** (self-managed): give <u>internet</u> access to <u>private subnets</u>
-
-    <img src="https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-instance_updated.png" style="zoom:60%;" />
+    ![nat-gateway](https://docs.aws.amazon.com/vpc/latest/userguide/images/nat-instance_updated.png)
 
 5. **Network ACL** (NACL): controls traffic from and to subnet
 
@@ -521,7 +528,7 @@ AWS Cloud Practitioner Summary
     | evaluate all rules |  evaluate rules in order   |
     |      Stateful      |         Stateless          |
 
-    <img src="https://miro.medium.com/max/472/1*pwAjuZMHsDJV6XckZGARxA.png" style="zoom:70%;" />
+    ![security-groups](https://miro.medium.com/max/472/1*pwAjuZMHsDJV6XckZGARxA.png)
 
 7. **VPC Flow Logs**: network traffic logs; help to monitor & troubleshoot connectivity issues
 
@@ -537,12 +544,10 @@ AWS Cloud Practitioner Summary
     - CGW (Customer Gateway): On-premises side
 
     - VGW (Virtual Private Gateway): AWS side
-
-        ![Xnip2022-08-01_19-48-07](aws-cli-images/Xnip2022-08-01_19-48-07.png)
+    ![virtual-private-gateway](imgs/virtual-private-gateway.png)
 
 11. **Direct Connect** (DX): direct <u>private connection</u> on-premises to AWS
-
-     <img src="aws-cli-images/Xnip2022-08-01_19-44-36.png" style="zoom:100%;" />
+     ![direct-connect](imgs/direct-connect.png)
 
 12. **Transit Gateway**: Transitive peering; Connect thousands of VPC and on-premises networks together
 
@@ -551,7 +556,7 @@ AWS Cloud Practitioner Summary
 
 1. Shared responsibility
    
-    <img src="https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg" style="zoom:50%;" />
+    ![shared-responsibility](https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
     
     1. AWS: <u>of</u> the cloud
     2. Customer: <u>in</u> the cloud
