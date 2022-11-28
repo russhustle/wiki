@@ -38,12 +38,12 @@
 | 进入环境 | pipenv shell | Activate; exit to deactivate |
 |  | pipenv –venv | Locates for a particular project |
 | 删除环境 | pipenv –rm | Delete environment; this will not remove the Pipfiles |
-| 安装 | pipenv install PACKAGE | Install |
-|  | pipenv install PACKAGE –dev | Development environment |
-| 卸载 | pipenv uninstall PACKAGE | Uninstall |
+| 安装 | pipenv install [PACKAGE] | Install |
+|  | pipenv install [PACKAGE] –dev | Development environment |
+| 卸载 | pipenv uninstall [PACKAGE] | Uninstall |
 | 卸载所有 | pipenv uninstall –all | Uninstall all packages |
 |  | pipenv uninstall –all -dev |  |
-| 更新 | pipenv update PACKAGE | Update |
+| 更新 | pipenv update [PACKAGE] | Update |
 | 更新所有 | pipenv update | Updates all packages |
 | 通过文件安装 | pipenv install -r requirements.txt | Installs a list of requirements |
 | 导出 | pipenv lock -r > requirements.txt | Export a list of requirements |
@@ -81,9 +81,9 @@ Common commands
 |  | Commands | Description |
 | --- | --- | --- |
 | 列出环境 | conda env list | Print all environments |
-| 创建 | conda create --name NAME python=3.8 | Create |
-| 删除环境 | conda env remove -n NAME | Remove |
-| 进入环境 | conda activate NAME | Activate |
+| 创建 | conda create --name [NAME] python=3.8 | Create |
+| 删除环境 | conda env remove -n [NAME] | Remove |
+| 进入环境 | conda activate [NAME] | Activate |
 | 推出环境 | conda deactivate | Deactivate  |
 | 版本 | conda --version | Print the conda version |
 
@@ -96,11 +96,11 @@ Common commands
 pip
 ---
 
-| Commands                   | Description |
-| -------------------------- | ----------- |
-| pip install --upgrade pip  | Upgrade pip |
-| pip install NAME           | Install     |
-| pip install --upgrade NAME | Upgrade     |
+| Commands                     | Description |
+| ---------------------------- | ----------- |
+| pip install --upgrade pip    | Upgrade pip |
+| pip install [NAME]           | Install     |
+| pip install --upgrade [NAME] | Upgrade     |
 
 Cookiecutter
 ---
