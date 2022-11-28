@@ -10,6 +10,7 @@ nav:
     - 🖥 Software Engineering:
       - index: tools/se/index.md
       - Configuration: tools/se/config.md
+      - Linux: tools/se/linux.md
       - Git & GitHub: tools/se/git.md
     - 🎨 Data Science:
       - index: tools/ds/index.md
