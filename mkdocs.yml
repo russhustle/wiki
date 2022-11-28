@@ -20,6 +20,7 @@ nav:
       - AutoML: tools/ds/automl.md
       - Time Series: tools/ds/time_series.md
       - Explainble AI: tools/ds/explainable.md
+      - Jupyter: tools/ds/jupyter.md
     - 📦 Deep Learning:
       - index: tools/dl/index.md
       - PyTorch: tools/dl/torch.md
