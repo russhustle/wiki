@@ -28,6 +28,7 @@ nav:
     - 📸 Computer Vision:
       - index: tools/cv/index.md
       - Object Detection: tools/cv/object_detection.md
+      - Anomaly Detection: tools/cv/anomaly.md
     - 💡 Compute:
       - index: tools/compute/index.md
       - Google Colab: tools/compute/google-colab.md
