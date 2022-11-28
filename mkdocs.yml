@@ -19,6 +19,7 @@ nav:
     - 🎨 Data Science:
       - index: tools/ds/index.md
       - DS Libraries: tools/ds/ds_framework.md
+      - Experiment: tools/ds/experiment.md
       - Visualization: tools/ds/viz.md
       - AutoML: tools/ds/automl.md
       - Time Series: tools/ds/time_series.md
@@ -152,6 +153,9 @@ extra:
     - icon: fontawesome/brands/kaggle
       link: https://www.kaggle.com/sihana
       name: Kaggle | Sihan A
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@sihan-a
+      name: Medium | Sihan A
 
 
 # [Extensions]
