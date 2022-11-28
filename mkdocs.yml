@@ -7,11 +7,15 @@ site_description: Wiki Page
 nav:
   - 🛠 Tools:
     - index: tools/index.md
+    
+    
     - 🖥 Software Engineering:
       - index: tools/se/index.md
       - Configuration: tools/se/config.md
       - Linux: tools/se/linux.md
       - Git & GitHub: tools/se/git.md
+    
+    
     - 🎨 Data Science:
       - index: tools/ds/index.md
       - DS Libraries: tools/ds/ds_framework.md
@@ -19,21 +23,38 @@ nav:
       - AutoML: tools/ds/automl.md
       - Time Series: tools/ds/time_series.md
       - Explainble AI: tools/ds/explainable.md
+    
+    
+    - 📸 Computer Vision:
+      - index: tools/cv/index.md
+      - Object Detection: tools/cv/object_detection.md
+    
+    
     - 💡 Compute:
       - index: tools/compute/index.md
       - Google Colab: tools/compute/google-colab.md
+    
+    
     - 🏝 Resource Management:
       - index: tools/resource/index.md
       - 🌅 Environment: tools/resource/environment.md
       - 🐳 Docker: tools/resource/docker.md
       - 🛟 Kubernetes: tools/resource/kubernetes.md
+    
+    
     - 🔗 MLOps:
       - index: tools/mlops/index.md
       - Container for ML: tools/mlops/container_ml.md
+    
+    
     - 🛢 Data:
       - index: tools/data/index.md
       - EDA: tools/data/eda.md
       - DVC: tools/data/dvc.md
+      - Annotations: tools/data/annotation.md
+      - Utilities: tools/data/utils.md
+    
+    
     - 🤔 Other:
       - index: tools/other/index.md
       - MacOS: tools/other/macos.md
@@ -115,7 +136,7 @@ theme:
 edit_uri: edit/main/docs    # 编辑按钮跳转的链接
 ## [top-right corner]
 repo_url: https://github.com/Sihan-A/wiki # 右上角点击跳转的链接
-repo_name: Sihan-A/wiki          # 右上角的名字
+repo_name: Sihan-A/wiki # 右上角的名字
 ## [bottom-left corner]
 copyright: Copyright &copy; 2022 Sihan A
 
@@ -128,6 +149,9 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/sihan-a/
       name: LinkedIn | Sihan A
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/sihana
+      name: Kaggle | Sihan A
 
 
 # [Extensions]
