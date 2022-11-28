@@ -17,6 +17,7 @@ nav:
       - DS Libraries: tools/ds/ds_framework.md
       - AutoML: tools/ds/automl.md
       - Time Series: tools/ds/time_series.md
+      - Explainble AI: tools/ds/explainable.md
     - 💡 Compute:
       - index: tools/compute/index.md
       - Google Colab: tools/compute/google-colab.md
