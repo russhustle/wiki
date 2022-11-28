@@ -16,14 +16,20 @@ nav:
       - index: tools/ds/index.md
       - AutoML: tools/ds/automl.md
     - 💡 Compute:
+      - index: tools/compute/index.md
       - Google Colab: tools/compute/google-colab.md
-    - 🏝 Resource:
+    - 🏝 Resource Management:
+      - index: tools/resource/index.md
       - 🌅 Environment: tools/resource/environment.md
       - 🐳 Docker: tools/resource/docker.md
-      - 🎻 Kubernetes: tools/resource/kubernetes.md
+      - 🛟 Kubernetes: tools/resource/kubernetes.md
+    - 🔗 MLOps:
+      - index: tools/mlops/index.md
+      - Container for ML: tools/mlops/container_ml.md
     - 🛢 Data:
       - index: tools/data/index.md
       - EDA: tools/data/eda.md
+      - DVC: tools/data/dvc.md
     - 🤔 Other:
       - index: tools/other/index.md
       - MacOS: tools/other/macos.md
@@ -33,6 +39,7 @@ nav:
   - 📊 Data Science:
     - index:          ds/index.md
     - ⭐️ Machine Learning:
+      - index: ds/ml/index.md
       - Supervised:   ds/ml/supervised.md
       - Unsupervised: ds/ml/unsupervised.md
       - Ensemble:     ds/ml/ensemble.md
