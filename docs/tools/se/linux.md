@@ -33,3 +33,8 @@ Shortcut: `ctrl+B`
 | screen -S -X NAME quit | Kill                                  |
 
 ### Byobu
+
+SSH
+---
+
+> Secure Shell Protocol (SSH)

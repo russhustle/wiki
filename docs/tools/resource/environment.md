@@ -2,12 +2,13 @@
 
 |  | Description | Documentation | Homepage | PyPI |
 | --- | --- | --- | --- | --- |
-| poetry | Dependency Management and Packaging | [Doc](https://python-poetry.org/docs/) | [GitHub](https://github.com/python-poetry/poetry) |  |
-| pipenv | Python Development Workflow | [Doc](https://pipenv.pypa.io/en/latest/) | [GitHub](https://github.com/pypa/pipenv) | [PyPI](https://pypi.org/project/pipenv/) |
-| pip-tools | pip-tools = pip-compile + pip-sync | [Doc](https://pip-tools.readthedocs.io/en/latest/) | [GitHub](https://github.com/jazzband/pip-tools) | [PyPI](https://pypi.org/project/pip-tools/) |
-| Conda | Dependency and Environment Management | [Doc](https://docs.conda.io/en/latest/) | [GitHub](https://github.com/conda/conda) |  |
-| virtualenv | Isolated Python Environments | [Doc](https://virtualenv.pypa.io/en/latest/index.html) | [GitHub](https://github.com/pypa/virtualenv) | [PyPI](https://pypi.org/project/virtualenv/) |
-| pip | Python Package Index | [Doc](https://pypi.org/) |  |  |
+| poetry | Dependency management and packaging | [Docs](https://python-poetry.org/docs/) | [GitHub](https://github.com/python-poetry/poetry) |  |
+| pipenv | Python development workflow | [Docs](https://pipenv.pypa.io/en/latest/) | [GitHub](https://github.com/pypa/pipenv) | [PyPI](https://pypi.org/project/pipenv/) |
+| pip-tools | pip-tools = pip-compile + pip-sync | [Docs](https://pip-tools.readthedocs.io/en/latest/) | [GitHub](https://github.com/jazzband/pip-tools) | [PyPI](https://pypi.org/project/pip-tools/) |
+| Conda | Dependency and environment management | [Docs](https://docs.conda.io/en/latest/) | [GitHub](https://github.com/conda/conda) |  |
+| virtualenv | Isolated Python environments | [Docs](https://virtualenv.pypa.io/en/latest/index.html) | [GitHub](https://github.com/pypa/virtualenv) | [PyPI](https://pypi.org/project/virtualenv/) |
+| pip | Python Package Index | [Docs](https://pypi.org/) |  |  |
+| Cookiecutter | Project templates | [Docs](https://cookiecutter.readthedocs.io/en/stable/) | [GitHub](https://github.com/cookiecutter/cookiecutter) | [PyPI](https://pypi.org/project/cookiecutter/) |
 
 ## Poetry
 
@@ -99,3 +100,7 @@ pip
 | pip install NAME           | Install     |
 | pip install --upgrade NAME | Upgrade     |
 
+Cookiecutter
+---
+
+- [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/)

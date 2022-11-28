@@ -18,3 +18,7 @@ Books
 Podcasts
 
 - [DagsHub](https://www.youtube.com/@DagsHub): The MLOps Podcast
+
+Blogs
+
+- [MLOps Blog by Neptune](https://neptune.ai/blog)
