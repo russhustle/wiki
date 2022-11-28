@@ -9,6 +9,7 @@
 | virtualenv | Isolated Python environments | [Docs](https://virtualenv.pypa.io/en/latest/index.html) | [GitHub](https://github.com/pypa/virtualenv) | [PyPI](https://pypi.org/project/virtualenv/) |
 | pip | Python Package Index | [Docs](https://pypi.org/) |  |  |
 | Cookiecutter | Project templates | [Docs](https://cookiecutter.readthedocs.io/en/stable/) | [GitHub](https://github.com/cookiecutter/cookiecutter) | [PyPI](https://pypi.org/project/cookiecutter/) |
+| envd | Container-based development environment for AI/ML | [Docs](https://envd.tensorchord.ai/) | [GitHub](https://github.com/tensorchord/envd) | [PyPI](https://pypi.org/project/envd/) |
 
 ## Poetry
 
@@ -85,6 +86,7 @@ Common commands
 | 进入环境 | conda activate NAME | Activate |
 | 推出环境 | conda deactivate | Deactivate  |
 | 版本 | conda --version | Print the conda version |
+
 - [Installation on MacOS](https://docs.conda.io/projects/conda/en/stable/user-guide/install/macos.html)
 
 ## virtualenv

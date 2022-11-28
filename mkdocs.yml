@@ -58,6 +58,8 @@ nav:
       - EDA: tools/data/eda.md
       - DVC: tools/data/dvc.md
       - Annotations: tools/data/annotation.md
+      - Imbalanced Data: tools/data/imbalance.md
+      - Kafka: tools/data/kafka.md
       - Utilities: tools/data/utils.md
     - 🌥 Cloud:
       - index: tools/cloud/index.md
@@ -66,11 +68,17 @@ nav:
       - index: tools/deploy/index.md
       - Backend: tools/deploy/backend.md
       - Frontend: tools/deploy/frontend.md
+      - Heroku: tools/deploy/heroku.md
+    - 🗂 Project Management:
+      - index: tools/project/index.md
+      - Jira: tools/project/jira.md
     - 🤔 Other:
       - index: tools/other/index.md
       - MacOS: tools/other/macos.md
-      - Markdown: tools/other/markdown.md
       - VS Code: tools/other/vscode.md
+      - Markdown: tools/other/markdown.md
+      - LaTex: tools/other/latex.md
+      
 
   - 📊 Data Science:
     - index:          ds/index.md
