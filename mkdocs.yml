@@ -14,7 +14,9 @@ nav:
       - Git & GitHub: tools/se/git.md
     - 🎨 Data Science:
       - index: tools/ds/index.md
+      - DS Libraries: tools/ds/ds_framework.md
       - AutoML: tools/ds/automl.md
+      - Time Series: tools/ds/time_series.md
     - 💡 Compute:
       - index: tools/compute/index.md
       - Google Colab: tools/compute/google-colab.md
@@ -50,9 +52,9 @@ nav:
       - index:        ds/cv/index.md
       - Preprocess:   ds/cv/preprocess.md
   - 📝 Learning:
-    - index:       learn/index.md
+    - index: learn/index.md
     - 🍣 日本語:
-      - index:     learn/japanese/index.md
+      - index: learn/japanese/index.md
       - 🍢 N2红宝书:
         - index:   learn/japanese/n2-vocabulary/index.md
         - 第01单元: learn/japanese/n2-vocabulary/第01单元.md
