@@ -1,14 +1,18 @@
-## Trees
+Trees
+===
 
-## Decision Tree
+Decision Tree
+---
 
-## Random Forest
+Random Forest
+---
 
 > Bagging ensemble of decision trees
 
 [Random Forest Algorithm Explained in Less Than 5 Minutes](https://medium.com/@techynilesh/random-forest-algorithm-explained-in-less-than-5-minutes-a433dc295f94)
 
-## XGBoost
+XGBoost
+---
 
 LightGBM
 ---
