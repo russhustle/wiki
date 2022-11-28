@@ -13,13 +13,23 @@ Multiplexer
 
 ### tmux
 
+> **T**erminal **MU**tiple**X**er
+
+- [手把手教你使用终端复用神器 Tmux，丢掉鼠标不是梦[视频]](https://zhuanlan.zhihu.com/p/43687973)
+
+session -> window -> pane
+
+Shortcut: `ctrl+B`
+
 ### screen
 
-| Commands                         | Description                                         |
-| -------------------------------- | --------------------------------------------------- |
-| screen -ls                       | Running sessions                                    |
-| screen -S `session_name`         | Create                                              |
-| screen -d `session_name`         | Detach                                              |
-| screen -r `session_name`         | Go back                                             |
-| screen -d -r `session_name`      | Detach the current session and go back to a session |
-| screen -S -X `session_name` quit | Kill                                                |
+| Commands               | Description                           |
+| ---------------------- | ------------------------------------- |
+| screen -ls             | Running sessions                      |
+| screen -S NAME         | Create                                |
+| screen -d NAME         | Detach                                |
+| screen -r NAME         | Attach                                |
+| screen -d -r NAME      | Detach the current session and attach |
+| screen -S -X NAME quit | Kill                                  |
+
+### Byobu
