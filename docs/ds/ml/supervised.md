@@ -9,9 +9,13 @@ $$
 {\hat{y}=\theta_{0}+\theta_{1}x_{1}}+{\theta_{2}x_{2}}+\dots+{\theta_{n}x_{n}}
 $$
 
-![linear-regression](../imgs/linear-regression.png)
+$$
+Obj(\theta)=L(\theta)+\Omega(\theta)
+$$
 
-Regularization term (a.k.a penalty term)
+- Objective function
+- Loss function
+- Regularization term (a.k.a penalty term)
 
 | Regularization method    | Name       |
 | ------------------------ | ---------- |
