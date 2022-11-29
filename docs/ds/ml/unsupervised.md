@@ -2,7 +2,8 @@
 
 ## PCA
 
-Principal Component Analysis
+> Principal Component Analysis
+>
 
 ### PCA Visualization
 
@@ -25,12 +26,9 @@ y = cancer.target
 2D
 
 ```python
-# Importing PCA visualizer
 from yellowbrick.features import PCA
-# Creating the 2D scatter plot by utilizing PCA
 visualizer = PCA(scale=True, projection=2, classes=classes,)
 visualizer.fit_transform(X, y)
-# Saving plot in PNG format
 visualizer.show()
 ```
 
