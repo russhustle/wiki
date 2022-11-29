@@ -71,6 +71,56 @@ Variants
 
 ![elbow-2](../imgs/elbow-2.png){width=400}
 
+#### Plot
+
+```python
+import pandas as pd
+import numpy as np
+import mplcyberpunk
+import matplotlib.pyplot as plt
+```
+
+Data preparation
+
+```python
+from sklearn import datasets
+iris = datasets.load_iris()
+df = pd.DataFrame(iris['data'])
+```
+
+
+
+```python
+from sklearn.cluster import KMeans
+
+def kmeans_elbow_plot(data, arrow_head, arrow_tail, num=(1,10)):
+    np.random.seed(42)
+    distortions = []
+    K = range(num[0], num[1])
+
+    for k in K:
+        kmeanModel = KMeans(n_clusters=k)
+        kmeanModel.fit(data)
+        distortions.append(kmeanModel.inertia_)
+    
+    plt.figure(figsize=(6,4))
+    plt.plot(K, distortions, "bx-")
+    plt.xlabel("k value")
+    plt.ylabel("Inertia")
+    plt.title("The Elbow Method showing the optimal k")
+    plt.annotate(text='Elbow', xy=arrow_head, xytext=arrow_tail,
+        arrowprops = dict(arrowstyle="->",color="white"))
+    plt.style.use("cyberpunk")
+    mplcyberpunk.add_glow_effects()
+    plt.show()
+```
+
+```python
+kmeans_elbow_plot(df, arrow_head=(3.0,120), arrow_tail=(4,400))
+```
+
+
+
 ### Silhouette score
 
 Measures & plots how close each point in one cluster is to points in the neighboring clusters. The thickness of the clusters corresponds to the cluster size. The vertical line represents the average silhouette score of all the points.
