@@ -54,7 +54,7 @@ nav:
       - Jenkins: tools/ci/jenkins.md
       - GitHub Actions: tools/ci/github_actions.md
       - CircleCI: tools/ci/circleci.md
-    - 🛢 Data:
+    -  Data:
       - index: tools/data/index.md
       - Analysis: tools/data/analysis.md
       - EDA: tools/data/eda.md
@@ -77,6 +77,7 @@ nav:
     - 🤔 Other:
       - index: tools/other/index.md
       - MacOS: tools/other/macos.md
+      - Windows: tools/other/win.md
       - VS Code: tools/other/vscode.md
       - Markdown: tools/other/markdown.md
       - LaTex: tools/other/latex.md
