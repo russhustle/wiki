@@ -56,27 +56,27 @@
 
 ## Conda
 
-Create a conda environment using `environment.yml`
+#### Create a conda environment using `environment.yml`
 
-1. `environment.yml` [[link1](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file), [link2](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually)]
+01-`environment.yml` [[link1](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file), [link2](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually)]
 
-    ```bash
-    name: <ENV_NAME>
-    channels:
-      - defaults
-      - conda-forge
-    dependencies:
-      - python=3.9
-      - pip=22.3.1
-    ```
+```bash
+name: <ENV_NAME>
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=22.3.1
+```
 
-2. Create the environment using the file
+02-Create the environment using the file
 
-    ```bash
-    conda env update --prune -f environment.yml
-    ```
+```bash
+conda env update --prune -f environment.yml
+```
 
-Common commands
+#### Common commands
 
 |  | Commands | Description |
 | --- | --- | --- |
@@ -86,6 +86,7 @@ Common commands
 | 进入环境 | conda activate [NAME] | Activate |
 | 推出环境 | conda deactivate | Deactivate  |
 | 版本 | conda --version | Print the conda version |
+|  | conda update --all | Update all possible |
 
 - [Installation on MacOS](https://docs.conda.io/projects/conda/en/stable/user-guide/install/macos.html)
 
