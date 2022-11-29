@@ -18,11 +18,11 @@ Variants
 | K-Means++          | `sklearn.cluster.KMeans(init='k-means++')` |                                                              |
 | Mini-batch K-Means | `sklearn.cluster.MiniBatchKMeans`          | [link](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.MiniBatchKMeans.html) |
 
+### Elbow method
+
 ![elbow-1](../imgs/elbow-1.png){width=400}
 
-### Elbow method - Inertia
-
-> **Inertia**: Intuitively, inertia tells how far away the points within a cluster are. Therefore, a small of inertia is aimed for. The range of inertia’s value starts from zero and goes up.
+==Inertia==: Intuitively, inertia tells how far away the points within a cluster are. Therefore, a small of inertia is aimed for. The range of inertia’s value starts from zero and goes up.
 
 | Library          | API                                    | Reference                                                    |
 | ---------------- | -------------------------------------- | ------------------------------------------------------------ |
@@ -33,7 +33,7 @@ Variants
 
 ### Silhouette score
 
-> Measures & plots how close each point in one cluster is to points in the neighboring clusters. The thickness of the clusters corresponds to the cluster size. The vertical line represents the average silhouette score of all the points.
+Measures & plots how close each point in one cluster is to points in the neighboring clusters. The thickness of the clusters corresponds to the cluster size. The vertical line represents the average silhouette score of all the points.
 
 ![silhouette-1](../imgs/silhouette-1.png){width=400}
 
