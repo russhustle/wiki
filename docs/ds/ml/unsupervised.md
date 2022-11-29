@@ -4,6 +4,48 @@
 
 Principal Component Analysis
 
+### PCA Visualization
+
+```python
+import matplotlib.pyplot as plt
+import mplcyberpunk
+plt.style.use("cyberpunk")
+```
+
+Data preparation
+
+```python
+from sklearn.datasets import load_breast_cancer
+cancer = load_breast_cancer()
+classes = cancer.target_names
+X = cancer.data
+y = cancer.target
+```
+
+2D
+
+```python
+# Importing PCA visualizer
+from yellowbrick.features import PCA
+# Creating the 2D scatter plot by utilizing PCA
+visualizer = PCA(scale=True, projection=2, classes=classes,)
+visualizer.fit_transform(X, y)
+# Saving plot in PNG format
+visualizer.show()
+```
+
+![pc_plot_2d](imgs/pc_plot_2d.png){width=400}
+
+3D
+
+```python
+visualizer = PCA(scale=True, projection=3, classes=classes,)
+visualizer.fit_transform(X, y)
+visualizer.show()
+```
+
+![pc_plot_3d](imgs/pc_plot_3d.png){width=400}
+
 ## K-MEANS
 
 Reference
