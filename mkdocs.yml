@@ -54,7 +54,7 @@ nav:
       - Jenkins: tools/ci/jenkins.md
       - GitHub Actions: tools/ci/github_actions.md
       - CircleCI: tools/ci/circleci.md
-    -  Data:
+    - Data:
       - index: tools/data/index.md
       - Analysis: tools/data/analysis.md
       - EDA: tools/data/eda.md
