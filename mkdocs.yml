@@ -5,9 +5,9 @@ site_author: Sihan A
 site_description: Wiki Page
 
 nav:
-  - 🛠 Tools:
+  - 🔧 Tools:
     - index: tools/index.md
-    - 🖥 Software Engineering:
+    - 💻 Software Engineering:
       - index: tools/se/index.md
       - Python: tools/se/python.md
       - Configuration: tools/se/config.md
@@ -40,11 +40,11 @@ nav:
     - 💡 Compute:
       - index: tools/compute/index.md
       - Google Colab: tools/compute/google-colab.md
-    - 🏝 Resource Management:
+    - 🪐 Resource Management:
       - index: tools/resource/index.md
       - 🌅 Environment: tools/resource/environment.md
       - 🐳 Docker: tools/resource/docker.md
-      - 🛟 Kubernetes: tools/resource/kubernetes.md
+      - 🧷 Kubernetes: tools/resource/kubernetes.md
     - 🔗 MLOps:
       - index: tools/mlops/index.md
       - Container for ML: tools/mlops/container_ml.md
@@ -54,7 +54,7 @@ nav:
       - Jenkins: tools/ci/jenkins.md
       - GitHub Actions: tools/ci/github_actions.md
       - CircleCI: tools/ci/circleci.md
-    - Data:
+    - 🎵 Data:
       - index: tools/data/index.md
       - Analysis: tools/data/analysis.md
       - EDA: tools/data/eda.md
@@ -63,7 +63,7 @@ nav:
       - Imbalanced Data: tools/data/imbalance.md
       - Kafka: tools/data/kafka.md
       - Utilities: tools/data/utils.md
-    - 🌥 Cloud:
+    - 🌊 Cloud:
       - index: tools/cloud/index.md
       - AWS: tools/cloud/aws.md
     - 🚎 Deployment:
@@ -71,7 +71,7 @@ nav:
       - Backend: tools/deploy/backend.md
       - Frontend: tools/deploy/frontend.md
       - Heroku: tools/deploy/heroku.md
-    - 🗂 Project Management:
+    - 🛕 Project Management:
       - index: tools/project/index.md
       - Jira: tools/project/jira.md
     - 🤔 Other:
@@ -123,7 +123,7 @@ nav:
         - 第19单元: learn/japanese/n2-vocabulary/第19单元.md
         - 第20单元: learn/japanese/n2-vocabulary/第20单元.md
       - 日语动词变形: learn/japanese/日语动词变形.md
-    - 🌨 AWS:
+    - 🌏 AWS:
       - index: learn/aws/index.md
       - Cloud Practitioner: learn/aws/ccp.md
   - 📚 Projects:
