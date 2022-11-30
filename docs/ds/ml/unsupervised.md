@@ -71,7 +71,7 @@ Variants
 
 ![elbow-2](../imgs/elbow-2.png){width=400}
 
-#### Plot
+#### Plot Function
 
 ```python
 import pandas as pd
@@ -88,7 +88,7 @@ iris = datasets.load_iris()
 df = pd.DataFrame(iris['data'])
 ```
 
-
+Elbow plot function [reference](https://predictivehacks.com/k-means-elbow-method-code-for-python/)
 
 ```python
 from sklearn.cluster import KMeans
@@ -119,7 +119,7 @@ def kmeans_elbow_plot(data, arrow_head, arrow_tail, num=(1,10)):
 kmeans_elbow_plot(df, arrow_head=(3.0,120), arrow_tail=(4,400))
 ```
 
-
+![elbow-1](imgs/elbow-1.png){width=400}
 
 ### Silhouette score
 
