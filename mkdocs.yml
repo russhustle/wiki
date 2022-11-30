@@ -108,7 +108,9 @@ nav:
         - index: learn/dl/lee2021/index.md
       - Lee 2022:
         - index: learn/dl/lee2022/index.md
-        - Rules: learn/dl/lee2022/rules.md
+        - Rules: learn/dl/lee2022/01-rules.md
+        - Labs:
+          - index: learn/dl/lee2022/labs/index.md
     - 🍣 日本語:
       - index: learn/japanese/index.md
       - 🍢 N2红宝书:
