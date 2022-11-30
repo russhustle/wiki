@@ -128,9 +128,9 @@ nav:
       - Cloud Practitioner: learn/aws/ccp.md
   - 📚 Projects:
     - index: projects/index.md
-
-# [UI]
-## [top]
+    - Wiki: projects/wiki.md
+# UI
+# top
 theme:
   name: material
   font: 
@@ -158,15 +158,13 @@ theme:
   language: en
   icon:
     repo: fontawesome/brands/github
-
 edit_uri: edit/main/docs    # 编辑按钮跳转的链接
-## [top-right corner]
+# top-right corner
 repo_url: https://github.com/Sihan-A/wiki # 右上角点击跳转的链接
 repo_name: Sihan-A/wiki # 右上角的名字
-## [bottom-left corner]
+# bottom-left corner
 copyright: Copyright &copy; 2022 Sihan A
-
-## [bottom-right corner]
+# bottom-right corner
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -181,8 +179,6 @@ extra:
     - icon: fontawesome/brands/medium
       link: https://medium.com/@sihan-a
       name: Medium | Sihan A
-
-
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
@@ -210,7 +206,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-
 extra_javascript:
   # latex支持
   # check https://squidfunk.github.io/mkdocs-material/reference/mathjax/?h=math for more information
