@@ -111,6 +111,10 @@ nav:
         - Rules: learn/dl/lee2022/01-rules.md
         - Labs:
           - index: learn/dl/lee2022/labs/index.md
+    - 🚅 Machine Learning:
+      - index: learn/ml/index.md
+      - CS329S Machine Learning Systems Design:
+        - index: learn/ml/cs329s/index.md
     - 🍣 日本語:
       - index: learn/japanese/index.md
       - 🍢 N2红宝书:
