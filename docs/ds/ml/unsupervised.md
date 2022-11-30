@@ -70,9 +70,9 @@ Variants
 | Yellowbrick      | `yellowbrick.cluster.KElbowVisualizer` | [link](https://www.scikit-yb.org/en/latest/api/cluster/elbow.html) |
 | Weights & Biases | `wandb.sklearn.plot_elbow_curve`       | [link](https://docs.wandb.ai/guides/integrations/scikit#elbow-plot) |
 
-![elbow-2](../imgs/elbow-2.png){width=400}
-
 #### Plot Function
+
+01 - Imports
 
 ```python
 import pandas as pd
@@ -81,7 +81,7 @@ import mplcyberpunk
 import matplotlib.pyplot as plt
 ```
 
-Data preparation
+02 - Data preparation
 
 ```python
 from sklearn import datasets
@@ -89,7 +89,7 @@ iris = datasets.load_iris()
 df = pd.DataFrame(iris['data'])
 ```
 
-Elbow plot function [reference](https://predictivehacks.com/k-means-elbow-method-code-for-python/)
+03-1 Elbow plot function [reference](https://predictivehacks.com/k-means-elbow-method-code-for-python/)
 
 ```python
 from sklearn.cluster import KMeans
@@ -121,6 +121,28 @@ kmeans_elbow_plot(df, arrow_head=(3.0,120), arrow_tail=(4,400))
 ```
 
 ![elbow-1](imgs/elbow-1.png){width=400}
+
+03-2 Yellowbrick [reference](https://www.scikit-yb.org/en/latest/api/cluster/elbow.html)
+
+```python
+from sklearn.cluster import KMeans
+from yellowbrick.cluster import KElbowVisualizer
+
+def yb_kmeans_elbow(data, k=(1, 10)):
+    np.random.seed(42)
+    model = KMeans()
+    visualizer = KElbowVisualizer(model, k=(k[0], k[1]))
+    visualizer.fit(data)
+    plt.style.use("cyberpunk")
+    mplcyberpunk.add_glow_effects()
+    visualizer.show()
+```
+
+```python
+yb_kmeans_elbow(df)
+```
+
+![elbow-2](imgs/elbow-2.png){width=400}
 
 ### Silhouette score
 
