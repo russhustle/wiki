@@ -21,7 +21,14 @@ Category
 
 ### Confusion Matrix
 
-![confusion-matrix](../imgs/confusion-matrix.png)
+|           |          | Actual                      | Actual              |                                                |
+| --------- | :------- | :-------------------------- | ------------------- | :--------------------------------------------- |
+|           |          | True                        | False               |                                                |
+| Predicted | Positive | True Positive (TP)          | False Positive (FP) | ==Precision== = TP / (TP + FP)                 |
+| Predicted | Negative | True Negative (TN)          | False Negative (FN) |                                                |
+|           |          | ==Recall== = TP / (TP + FN) |                     | ==Accuracy== = (TP + TN) / (TP + FP + TN + FN) |
+
+![confusion-matrix](../imgs/confusion-matrix.png){width=400}
 
 $$
 \mathrm{Precision} = \frac {\mathrm{TP}}{\mathrm{TP+FP}}
