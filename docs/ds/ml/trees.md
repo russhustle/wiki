@@ -16,8 +16,6 @@ clf = tree.DecisionTreeClassifier()
 clf = clf.fit(X, y)
 ```
 
-
-
 ```python
 import graphviz
 dot_data = tree.export_graphviz(
@@ -32,6 +30,8 @@ dot_data = tree.export_graphviz(
 graph = graphviz.Source(dot_data)
 graph
 ```
+
+![tree](imgs/tree.png){width=500}
 
 Random Forest
 ---
