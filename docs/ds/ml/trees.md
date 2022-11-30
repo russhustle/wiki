@@ -4,6 +4,35 @@ Trees
 Decision Tree
 ---
 
+### Visualization of tree
+
+```python
+from sklearn.datasets import load_iris
+from sklearn import tree
+
+iris = load_iris()
+X, y = iris.data, iris.target
+clf = tree.DecisionTreeClassifier()
+clf = clf.fit(X, y)
+```
+
+
+
+```python
+import graphviz
+dot_data = tree.export_graphviz(
+    decision_tree=clf,
+    out_file=None,
+    feature_names=iris.feature_names,
+    class_names=iris.target_names,
+    filled=True,
+    rounded=True,
+    special_characters=True,
+)
+graph = graphviz.Source(dot_data)
+graph
+```
+
 Random Forest
 ---
 
