@@ -10,4 +10,4 @@ Full Stack Deep Learning 2022
 Course Certificate 🎉
 ---
 
-![certificate](imgs/certificate.jpg)
+![certificate](imgs/certificate.jpg){width=400}
