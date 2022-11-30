@@ -98,6 +98,15 @@ nav:
       - Preprocess:   ds/cv/preprocess.md
   - 📝 Learning:
     - index: learn/index.md
+    
+    - 🥮 Deep Learning:
+      - index: learn/dl/index.md
+      - FSDL 2022:
+        - index: learn/dl/fsdl2022/index.md
+      - Lee 2021:
+        - index: learn/dl/lee2021/index.md
+      - Lee 2022:
+        - index: learn/dl/lee2022/index.md
     - 🍣 日本語:
       - index: learn/japanese/index.md
       - 🍢 N2红宝书:
