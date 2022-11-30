@@ -8,6 +8,7 @@
 
 ### Gradient Boosting
 
-![gradient-boosting](../imgs/gradient-boosting.png)
+![gradient-boosting](../imgs/gradient-boosting.png){width=400}
 
-## 4. Stacking
+Stacking
+---

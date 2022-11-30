@@ -156,3 +156,38 @@ Measures & plots how close each point in one cluster is to points in the neighbo
 | Weights & Biases | `wandb.sklearn.plot_silhouette`            | [link](https://docs.wandb.ai/guides/integrations/scikit#silhouette-plot) |
 
 ![silhouette-2](../imgs/silhouette-2.png){width=600}
+
+### K-MEANS with Weights & Biases
+
+```python
+import wandb
+wandb.login()
+```
+
+```python
+from sklearn import datasets
+import numpy as np
+def get_label_ids(classes):
+    return np.array([names[aclass] for aclass in classes])
+
+iris = datasets.load_iris()
+X, y = iris.data, iris.target
+names = iris.target_names
+labels = get_label_ids(y)
+```
+
+```python
+from sklearn.cluster import KMeans
+
+kmeans = KMeans(n_clusters=4, random_state=1)
+cluster_labels = kmeans.fit_predict(X)
+```
+
+```python
+run = wandb.init(project="sklearn-trial", name="clustering")
+wandb.sklearn.plot_clusterer(kmeans, X, cluster_labels, labels, "KMeans")
+wandb.finish()
+```
+
+![kmeans-wandb](imgs/kmeans-wandb.png)
+

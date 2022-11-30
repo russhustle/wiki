@@ -16,6 +16,8 @@ clf = tree.DecisionTreeClassifier()
 clf = clf.fit(X, y)
 ```
 
+Method 1
+
 ```python
 import graphviz
 dot_data = tree.export_graphviz(
@@ -31,7 +33,25 @@ graph = graphviz.Source(dot_data)
 graph
 ```
 
-![tree](imgs/tree.png){width=500}
+![tree](imgs/tree-1.png)
+
+Method 2
+
+```python
+from sklearn.tree import plot_tree
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(20,12))
+tree.plot_tree(
+    decision_tree=clf, 
+    feature_names=iris.feature_names,
+    class_names=iris.target_names,
+    filled=True,
+)
+plt.show()
+```
+
+![tree-2](imgs/tree-2.png)
 
 Random Forest
 ---
