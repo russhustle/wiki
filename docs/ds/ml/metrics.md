@@ -21,6 +21,7 @@ Category
 
 ### Confusion Matrix
 
+![confusion-matrix](imgs/confusion-matrix.png){width=500}
 
 $$
 \mathrm{Precision} = \frac {\mathrm{TP}}{\mathrm{TP+FP}}
