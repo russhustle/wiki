@@ -110,6 +110,7 @@ nav:
       - FSDL 2022:
         - index: learn/dl/fsdl2022/index.md
         - 01 Introduction: learn/dl/fsdl2022/01-intro.md
+        - 02 Development Infrastructure & Tooling: learn/dl/fsdl2022/02-dev.md
       - Lee 2021:
         - index: learn/dl/lee2021/index.md
       - Lee 2022:
