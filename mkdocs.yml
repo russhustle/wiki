@@ -93,7 +93,7 @@ nav:
       - Trees:        ds/ml/trees.md
       - Metrics:      ds/ml/metrics.md
       - Concepts:     ds/ml/concepts.md
-    - Deep Learning:
+    - 🏔 Deep Learning:
       - index: ds/dl/index.md
       - CNN: ds/dl/cnn.md
       - RNN: ds/dl/rnn.md
