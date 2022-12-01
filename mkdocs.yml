@@ -121,6 +121,30 @@ nav:
         - 09 Ethics: learn/dl/fsdl2022/09-ethics.md
       - Lee 2021:
         - index: learn/dl/lee2021/index.md
+        - Course Introduction: learn/dl/lee2021/01-course-intro.md
+        - ML DL Intro: learn/dl/lee2021/01-intro-mldl.md
+        
+        - ML Guidance: learn/dl/lee2021/02-general.md
+        - Small Gradient: learn/dl/lee2021/02-small-gradient.md
+        - Adaptive LR: learn/dl/lee2021/02-adaptive-lr.md
+        - Classification: learn/dl/lee2021/02-classification.md
+        - CNN: learn/dl/lee2021/03-cnn.md
+        - Self-Attention: learn/dl/lee2021/03-attention.md
+        - PAC Learning: learn/dl/lee2021/04-pac.md
+        - Batch Normalization: learn/dl/lee2021/05-batchnorm.md
+        - Transformer: learn/dl/lee2021/05-transformer.md
+        - GAN: learn/dl/lee2021/06-gan.md
+        - BERT: learn/dl/lee2021/07-bert.md
+        - Auto-Encoder: learn/dl/lee2021/07-auto-encoder.md
+        - Adversarial Attack: learn/dl/lee2021/08-attack.md
+        - Explainable AI: learn/dl/lee2021/08-explainable.md
+        - Domain Adaptation: learn/dl/lee2021/09-domain.md
+        - Reinforcement Learning: learn/dl/lee2021/11-RL.md
+        - Quantum ML: learn/dl/lee2021/12-quantum.md
+        - Life-long Learning: learn/dl/lee2021/13-3l.md
+        - Network Compression: learn/dl/lee2021/13-compression.md
+        - Meta Learning: learn/dl/lee2021/14-meta.md
+
       - Lee 2022:
         - index: learn/dl/lee2022/index.md
         - Rules: learn/dl/lee2022/01-rules.md
