@@ -5,6 +5,7 @@ site_author: Sihan A
 site_description: Wiki Page
 
 nav:
+
   - 🔧 Tools:
     - index: tools/index.md
     - 💻 Software Engineering:
@@ -109,8 +110,15 @@ nav:
       - index: learn/dl/index.md
       - FSDL 2022:
         - index: learn/dl/fsdl2022/index.md
-        - 01 Introduction: learn/dl/fsdl2022/01-intro.md
+        - 01 Course Vision and When to Use ML: learn/dl/fsdl2022/01-intro.md
         - 02 Development Infrastructure & Tooling: learn/dl/fsdl2022/02-dev.md
+        - 03 Troubleshooting & Testing: learn/dl/fsdl2022/03-test.md
+        - 04 Data Management: learn/dl/fsdl2022/04-data.md
+        - 05 Deployment: learn/dl/fsdl2022/05-deploy.md
+        - 06 Continual Learning: learn/dl/fsdl2022/06-continual.md
+        - 07 Foundation Models: learn/dl/fsdl2022/07-foundation.md
+        - 08 ML Teams and Project Management: learn/dl/fsdl2022/08-team.md
+        - 09 Ethics: learn/dl/fsdl2022/09-ethics.md
       - Lee 2021:
         - index: learn/dl/lee2021/index.md
       - Lee 2022:
@@ -242,4 +250,3 @@ extra_javascript:
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
   - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
-  - stylesheets/extra.css
