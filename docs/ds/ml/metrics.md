@@ -23,6 +23,8 @@ Category
 
 ![confusion-matrix](imgs/confusion-matrix.png){width=500}
 
+source: [What is Confusion Matrix and Advanced Classification Metrics?](https://manisha-sirsat.blogspot.com/2019/04/confusion-matrix.html)
+
 $$
 \mathrm{Precision} = \frac {\mathrm{TP}}{\mathrm{TP+FP}}
 $$
@@ -69,7 +71,7 @@ fpr, tpr, thresholds = roc_curve(y_train_5, y_scores)
 
 ### ROC curve
 
-![roc](../imgs/roc.png)
+![roc](../imgs/roc.png){width="400"}
 
 | Library          | API                               | Reference                                                    |
 | ---------------- | --------------------------------- | ------------------------------------------------------------ |
@@ -105,7 +107,7 @@ def plot_roc_curve(recalls, precisions, fpr, tpr, label=None):
 
 ### Precision-Recall curve
 
-![precision-recall-curve](../imgs/precision-recall-curve-1.png){width="300"}
+![precision-recall-curve](../imgs/precision-recall-curve-1.png){width="400"}
 
 | Library          | API                                           | Reference                                                    |
 | ---------------- | --------------------------------------------- | ------------------------------------------------------------ |
@@ -132,7 +134,7 @@ def plot_precision_vs_recall(precisions, recalls):
     plt.show()
 ```
 
-![precision-recall-curve-2](../imgs/precision-recall-curve-2.png)
+![precision-recall-curve-2](../imgs/precision-recall-curve-2.png){width="400"}
 
 ## Regression
 
