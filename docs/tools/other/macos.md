@@ -26,3 +26,28 @@
 | Anaconda | Data science environment  |
 | Notion | Notebook |
 | Typora | Markdown editor |
+
+Homebrew
+---
+
+| Commands      | Description |
+| ------------- | ----------- |
+| brew update   |             |
+| brew upgrade  |             |
+| brew outdated |             |
+| brew list     |             |
+|               |             |
+|               |             |
+|               |             |
+|               |             |
+|               |             |
+
+Typora
+---
+
+|      |      |
+| ---- | ---- |
+|      |      |
+|      |      |
+|      |      |
+
