@@ -9,6 +9,9 @@ Data Management
 
 ![IMG_00004](imgs/04-data/IMG_00004.jpg)
 
+Data Sources
+---
+
 ![IMG_00005](imgs/04-data/IMG_00005.jpg)
 
 ![IMG_00006](imgs/04-data/IMG_00006.jpg)
