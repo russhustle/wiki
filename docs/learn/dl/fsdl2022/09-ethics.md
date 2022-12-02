@@ -13,6 +13,9 @@ Agenda
 
 ![IMG_00002](imgs/09-ethics/IMG_00002.jpg)
 
+01-Context
+---
+
 ![IMG_00003](imgs/09-ethics/IMG_00003.jpg)
 
 ![IMG_00004](imgs/09-ethics/IMG_00004.jpg)
@@ -54,6 +57,9 @@ Agenda
 ![IMG_00022](imgs/09-ethics/IMG_00022.jpg)
 
 ![IMG_00023](imgs/09-ethics/IMG_00023.jpg)
+
+02-Tech Ethics 
+---
 
 ![IMG_00024](imgs/09-ethics/IMG_00024.jpg)
 
@@ -108,6 +114,9 @@ Agenda
 ![IMG_00049](imgs/09-ethics/IMG_00049.jpg)
 
 ![IMG_00050](imgs/09-ethics/IMG_00050.jpg)
+
+03-ML Ethics
+---
 
 ![IMG_00051](imgs/09-ethics/IMG_00051.jpg)
 
@@ -230,6 +239,9 @@ Agenda
 ![IMG_00110](imgs/09-ethics/IMG_00110.jpg)
 
 ![IMG_00111](imgs/09-ethics/IMG_00111.jpg)
+
+04-Al Ethics
+---
 
 ![IMG_00112](imgs/09-ethics/IMG_00112.jpg)
 

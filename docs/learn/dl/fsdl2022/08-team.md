@@ -5,7 +5,13 @@ ML Teams and Project Management
 
 ![IMG_00002](imgs/08-team/IMG_00002.jpg)
 
+Overview
+---
+
 ![IMG_00003](imgs/08-team/IMG_00003.jpg)
+
+01-Roles
+---
 
 ![IMG_00004](imgs/08-team/IMG_00004.jpg)
 
@@ -13,15 +19,27 @@ ML Teams and Project Management
 
 ![IMG_00006](imgs/08-team/IMG_00006.jpg)
 
+### ML Product Manager
+
 ![IMG_00007](imgs/08-team/IMG_00007.jpg)
+
+### MLOps / ML Platform
 
 ![IMG_00008](imgs/08-team/IMG_00008.jpg)
 
+### ML Engineer 
+
 ![IMG_00009](imgs/08-team/IMG_00009.jpg)
+
+### ML Researcher 
 
 ![IMG_00010](imgs/08-team/IMG_00010.jpg)
 
+### Data Scientist 
+
 ![IMG_00011](imgs/08-team/IMG_00011.jpg)
+
+### Skills for Roles
 
 ![IMG_00012](imgs/08-team/IMG_00012.jpg)
 
@@ -36,6 +54,9 @@ ML Teams and Project Management
 ![IMG_00017](imgs/08-team/IMG_00017.jpg)
 
 ![IMG_00018](imgs/08-team/IMG_00018.jpg)
+
+02-Hiring
+---
 
 ![IMG_00019](imgs/08-team/IMG_00019.jpg)
 
@@ -77,6 +98,9 @@ ML Teams and Project Management
 
 ![IMG_00038](imgs/08-team/IMG_00038.jpg)
 
+03-Organizations
+---
+
 ![IMG_00039](imgs/08-team/IMG_00039.jpg)
 
 ![IMG_00040](imgs/08-team/IMG_00040.jpg)
@@ -104,6 +128,9 @@ ML Teams and Project Management
 ![IMG_00051](imgs/08-team/IMG_00051.jpg)
 
 ![IMG_00052](imgs/08-team/IMG_00052.jpg)
+
+04-Managing
+---
 
 ![IMG_00053](imgs/08-team/IMG_00053.jpg)
 
@@ -141,6 +168,9 @@ ML Teams and Project Management
 
 ![IMG_00070](imgs/08-team/IMG_00070.jpg)
 
+05-Design
+---
+
 ![IMG_00071](imgs/08-team/IMG_00071.jpg)
 
 ![IMG_00072](imgs/08-team/IMG_00072.jpg)
@@ -172,5 +202,8 @@ ML Teams and Project Management
 ![IMG_00085](imgs/08-team/IMG_00085.jpg)
 
 ![IMG_00086](imgs/08-team/IMG_00086.jpg)
+
+Conclusion
+---
 
 ![IMG_00087](imgs/08-team/IMG_00087.jpg)
