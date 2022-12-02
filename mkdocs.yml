@@ -230,12 +230,14 @@ theme:
   language: en
   icon:
     repo: fontawesome/brands/github
+
 edit_uri: edit/main/docs    # 编辑按钮跳转的链接
 # top-right corner
 repo_url: https://github.com/Sihan-A/wiki # 右上角点击跳转的链接
 repo_name: Sihan-A/wiki # 右上角的名字
 # bottom-left corner
 copyright: Copyright &copy; 2022 Sihan A
+
 # bottom-right corner
 extra:
   social:
@@ -251,6 +253,7 @@ extra:
     - icon: fontawesome/brands/medium
       link: https://medium.com/@sihan-a
       name: Medium | Sihan A
+
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
@@ -259,6 +262,7 @@ plugins:
         - en
         - ja
   - tags # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
+
 markdown_extensions:
   - pymdownx.arithmatex: # latex support
       generic: true
@@ -278,6 +282,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+
 extra_javascript:
   # latex支持
   # check https://squidfunk.github.io/mkdocs-material/reference/mathjax/?h=math for more information
@@ -285,6 +290,7 @@ extra_javascript:
   - mkdocs/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # https://cdn.bytedance.com/?query=mathjax&version=3.2.0
+
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
   - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
