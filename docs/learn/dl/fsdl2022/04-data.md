@@ -9,7 +9,7 @@ Data Management
 
 ![IMG_00004](imgs/04-data/IMG_00004.jpg)
 
-Data Sources
+01-Data Sources
 ---
 
 ![IMG_00005](imgs/04-data/IMG_00005.jpg)
@@ -24,7 +24,11 @@ Data Sources
 
 ![IMG_00010](imgs/04-data/IMG_00010.jpg)
 
+### The Basics
+
 ![IMG_00011](imgs/04-data/IMG_00011.jpg)
+
+#### Filesystem
 
 ![IMG_00012](imgs/04-data/IMG_00012.jpg)
 
@@ -36,9 +40,13 @@ Data Sources
 
 ![IMG_00016](imgs/04-data/IMG_00016.jpg)
 
+#### Object Storage
+
 ![IMG_00017](imgs/04-data/IMG_00017.jpg)
 
 ![IMG_00018](imgs/04-data/IMG_00018.jpg)
+
+#### Databases
 
 ![IMG_00019](imgs/04-data/IMG_00019.jpg)
 
@@ -54,11 +62,17 @@ Data Sources
 
 ![IMG_00025](imgs/04-data/IMG_00025.jpg)
 
+02-Exploration
+---
+
 ![IMG_00026](imgs/04-data/IMG_00026.jpg)
 
 ![IMG_00027](imgs/04-data/IMG_00027.jpg)
 
 ![IMG_00028](imgs/04-data/IMG_00028.jpg)
+
+03-Processing 
+---
 
 ![IMG_00029](imgs/04-data/IMG_00029.jpg)
 
@@ -78,6 +92,9 @@ Data Sources
 
 ![IMG_00037](imgs/04-data/IMG_00037.jpg)
 
+04-Feature Store
+---
+
 ![IMG_00038](imgs/04-data/IMG_00038.jpg)
 
 ![IMG_00039](imgs/04-data/IMG_00039.jpg)
@@ -91,6 +108,9 @@ Data Sources
 ![IMG_00043](imgs/04-data/IMG_00043.jpg)
 
 ![IMG_00044](imgs/04-data/IMG_00044.jpg)
+
+05-Datasets
+---
 
 ![IMG_00045](imgs/04-data/IMG_00045.jpg)
 
@@ -106,7 +126,12 @@ Data Sources
 
 ![IMG_00051](imgs/04-data/IMG_00051.jpg)
 
+06-Labeling
+---
+
 ![IMG_00052](imgs/04-data/IMG_00052.jpg)
+
+### Self-Supervised Learning
 
 ![IMG_00053](imgs/04-data/IMG_00053.jpg)
 
@@ -149,6 +174,9 @@ Data Sources
 ![IMG_00072](imgs/04-data/IMG_00072.jpg)
 
 ![IMG_00073](imgs/04-data/IMG_00073.jpg)
+
+07-Versioning 
+---
 
 ![IMG_00074](imgs/04-data/IMG_00074.jpg)
 
