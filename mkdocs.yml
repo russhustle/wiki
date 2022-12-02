@@ -147,9 +147,24 @@ nav:
 
       - Lee 2022:
         - index: learn/dl/lee2022/index.md
-        - Rules: learn/dl/lee2022/01-rules.md
+        - Course Rules: learn/dl/lee2022/01-rule.md
+        - Class Introduction: learn/dl/lee2022/01-intro.md
+        - Basic Theory: learn/dl/lee2022/02-theory.md
+        - Validation: learn/dl/lee2022/03-validation.md
+        - Why Deep: learn/dl/lee2022/03-why-deep.md
+        - Xformer: learn/dl/lee2022/05-xformer.md
+        - SSL for NLP: learn/dl/lee2022/07-plm.md
+        - SSL for Speech and Image: learn/dl/lee2022/07-SSL-speech-image.md
+        - Adversarial Attack for NLP: learn/dl/lee2022/09-attacks-nlp.md
+        - More about SSL: learn/dl/lee2022/11-more-ssl.md
+        - More about Meta Learning: learn/dl/lee2022/15-more-meta.md
+
         - Labs:
           - index: learn/dl/lee2022/labs/index.md
+          - Colab: learn/dl/lee2022/labs/lab-01-colab.md
+          - PyTorch 1: learn/dl/lee2022/labs/lab-01-pytorch-1.md
+          - PyTorch 2: learn/dl/lee2022/labs/lab-01-pytorch-2.md
+          - Environment Setup: learn/dl/lee2022/labs/lab-01-env.md
     - 🚅 Machine Learning:
       - index: learn/ml/index.md
       - CS329S Machine Learning Systems Design:
