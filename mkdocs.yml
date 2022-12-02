@@ -144,7 +144,6 @@ nav:
         - Life-long Learning: learn/dl/lee2021/13-3l.md
         - Network Compression: learn/dl/lee2021/13-compression.md
         - Meta Learning: learn/dl/lee2021/14-meta.md
-
       - Lee 2022:
         - index: learn/dl/lee2022/index.md
         - Course Rules: learn/dl/lee2022/01-rule.md
@@ -208,13 +207,13 @@ theme:
     text: Work Sans
   palette: 
     - scheme: default
-      primary: teal
+      primary: blue grey
       accent: orange
       toggle:
         icon: material/weather-night
         name: 切换至夜间模式
     - scheme: slate
-      primary: teal
+      primary: blue grey
       accent: orange
       toggle:
         icon: material/weather-sunny
