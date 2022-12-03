@@ -106,4 +106,5 @@ pip
 Cookiecutter
 ---
 
-- [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/)
+- [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/) [![Cookiecutter Data Science](https://img.shields.io/static/v1?label=&message=Cookiecutter+Data+Science&color=black&logo=github)](https://github.com/drivendata/cookiecutter-data-science)
+
