@@ -80,7 +80,30 @@ fpr, tpr, thresholds = roc_curve(y_train_5, y_scores)
 | Weights & Biases | `wandb.sklearn.plot_roc`          | [link](https://docs.wandb.ai/guides/integrations/scikit#roc) |
 |                  | `plot_roc_curve`                  | [link](https://github.com/ageron/handson-ml2/blob/master/03_classification.ipynb) |
 
-<script src="https://gist.github.com/Sihan-A/67868799cc1b432de23e57e536c7edea.js"></script>
+```python
+def plot_roc_curve(recalls, precisions, fpr, tpr, label=None):
+    """ROC curve."""
+    plt.figure(figsize=(8, 6))
+
+    # If we want to compare two models' roc curve. Add few lines like this.
+    plt.plot(fpr, tpr, "b-", linewidth=2, label=label)  # ROC curve
+    recall_90_precision = recalls[np.argmax(precisions >= 0.90)]
+    fpr_90 = fpr[np.argmax(tpr >= recall_90_precision)]
+    plt.plot([fpr_90, fpr_90], [0.0, recall_90_precision], "r:")
+    plt.plot([0.0, fpr_90], [recall_90_precision, recall_90_precision], "r:")
+    plt.plot([fpr_90], [recall_90_precision], "ro")  # Red line
+    plt.text(fpr_90 + 0.02,recall_90_precision,
+             f"A (precision=0.9, recall={recall_90_precision:.2f})",)  # Point A
+    # General settings
+    plt.plot([0, 1], [0, 1], "k--")  # diagonal line: random classifier
+    plt.axis([0, 1, 0, 1])
+    plt.legend()
+    plt.xlabel("False Positive Rate (Fall-Out)", fontsize=16)
+    plt.ylabel("True Positive Rate (Recall)", fontsize=16)
+    plt.grid(True)
+    plt.title("ROC Curve. Point A highlights the chosen ratio")
+    plt.show()
+```
 
 ### Precision-Recall curve
 
