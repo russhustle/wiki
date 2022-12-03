@@ -56,6 +56,13 @@ repos:
     - id: detect-private-key
 ```
 
+| Commands                   |                              |
+| -------------------------- | ---------------------------- |
+| pre-commit --version       |                              |
+| pre-commit install         | Install the git hook scripts |
+| pre-commit run --all-files |                              |
+| pre-commit autoupdate      |                              |
+
 ### black
 
 `.pre-commit-config.yaml`
