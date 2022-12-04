@@ -81,6 +81,7 @@ nav:
       - Windows: tools/other/win.md
       - VS Code: tools/other/vscode.md
       - Markdown: tools/other/markdown.md
+      - PDF: tools/other/pdf.md
       - LaTex: tools/other/latex.md
       
 
