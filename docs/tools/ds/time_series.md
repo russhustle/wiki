@@ -11,6 +11,7 @@ Time Series
 | PyTorch Forecasting |                      |            | [Doc](https://pytorch-forecasting.readthedocs.io/en/stable/) | [GitHub](https://github.com/jdb78/pytorch-forecasting) | [PyPI](https://pypi.org/project/pytorch-forecasting/) |
 
 - [Awesome Time Series](https://github.com/cuge1995/awesome-time-series)
+- [Top Python libraries for Time Series Analysis in 2022](https://moez-62905.medium.com/top-python-libraries-for-time-series-analysis-in-2022-eebe95913085)
 
 sktime
 ---
