@@ -29,19 +29,37 @@ Course Vision
 
 ![IMG_00011](imgs/01-intro/IMG_00011.jpg)
 
+- Real-world products
+
 ![IMG_00012](imgs/01-intro/IMG_00012.jpg)
 
 ![IMG_00013](imgs/01-intro/IMG_00013.jpg)
 
 ![IMG_00014](imgs/01-intro/IMG_00014.jpg)
 
+### Goals
+
 ![IMG_00015](imgs/01-intro/IMG_00015.jpg)
 
+Goals
+
+1. ML-powered product
+2. MLOps
+3. Best practices and its motivations
+4. Job interview 
+5. Community 
+
 ![IMG_00016](imgs/01-intro/IMG_00016.jpg)
+
+SWE: software engineering
+
+### Prerequisites 
 
 ![IMG_00017](imgs/01-intro/IMG_00017.jpg)
 
 ![IMG_00018](imgs/01-intro/IMG_00018.jpg)
+
+### About us
 
 ![IMG_00019](imgs/01-intro/IMG_00019.jpg)
 
@@ -50,6 +68,12 @@ Course Vision
 ![IMG_00021](imgs/01-intro/IMG_00021.jpg)
 
 ![IMG_00022](imgs/01-intro/IMG_00022.jpg)
+
+1. Personal experience 
+2. Interviews 
+3. Posts
+
+### Logistics 
 
 ![IMG_00023](imgs/01-intro/IMG_00023.jpg)
 
@@ -70,11 +94,15 @@ When to use ML
 
 ![IMG_00030](imgs/01-intro/IMG_00030.jpg)
 
+- [Why do 87% of Data Science projects fail? And are we sure that it is true?](https://mtszkw.medium.com/why-do-87-of-data-science-projects-fail-and-are-we-sure-that-it-is-true-fe8b5ba1404c)
+
 ![IMG_00031](imgs/01-intro/IMG_00031.jpg)
 
 ![IMG_00032](imgs/01-intro/IMG_00032.jpg)
 
 ![IMG_00033](imgs/01-intro/IMG_00033.jpg)
+
+### Questions before starting a ML project
 
 ![IMG_00034](imgs/01-intro/IMG_00034.jpg)
 
@@ -90,6 +118,8 @@ When to use ML
 
 ![IMG_00040](imgs/01-intro/IMG_00040.jpg)
 
+### Pick Problems to Solve with ML
+
 ![IMG_00041](imgs/01-intro/IMG_00041.jpg)
 
 ![IMG_00042](imgs/01-intro/IMG_00042.jpg)
@@ -104,7 +134,11 @@ When to use ML
 
 ![IMG_00047](imgs/01-intro/IMG_00047.jpg)
 
+- [Software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35) by Andrej Karpathy
+
 ![IMG_00048](imgs/01-intro/IMG_00048.jpg)
+
+- [Human-Centric Machine Learning Infrastructure @Netflix](https://youtu.be/XV5VGddmP24)
 
 ![IMG_00049](imgs/01-intro/IMG_00049.jpg)
 
@@ -168,6 +202,8 @@ When to use ML
 
 ![IMG_00079](imgs/01-intro/IMG_00079.jpg)
 
+- [ML Ops at Reasonable Scale feat. Jacopo Tagliabue](https://youtu.be/Ndxpo4PeEms) at [Stanford MLSys Seminar](https://www.youtube.com/@StanfordMLSysSeminars)
+
 ![IMG_00080](imgs/01-intro/IMG_00080.jpg)
 
 Lifecycle
@@ -178,6 +214,8 @@ Lifecycle
 ![IMG_00082](imgs/01-intro/IMG_00082.jpg)
 
 ![IMG_00083](imgs/01-intro/IMG_00083.jpg)
+
+### Lifecycle of a ML project
 
 ![IMG_00084](imgs/01-intro/IMG_00084.jpg)
 
@@ -200,5 +238,8 @@ Lifecycle
 ![IMG_00093](imgs/01-intro/IMG_00093.jpg)
 
 ![IMG_00094](imgs/01-intro/IMG_00094.jpg)
+
+Conclusion
+---
 
 ![IMG_00095](imgs/01-intro/IMG_00095.jpg)
