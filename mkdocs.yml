@@ -101,7 +101,6 @@ nav:
       - RNN: ds/dl/rnn.md
       - Transformer: ds/dl/transformer.md
       - Diffusion: ds/dl/diffusion.md
-      - Loss Functions: /ds/dl/loss.md
     - 📷 Computer Vision:
       - index:        ds/cv/index.md
       - Preprocess:   ds/cv/preprocess.md

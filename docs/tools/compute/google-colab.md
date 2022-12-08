@@ -1,15 +1,15 @@
 # Google Colab
 
-💡Some common utilities for different purposes in Colab.
+💡 Some common utilities for different purposes in Colab.
 
-### 01-Mount google drive in Colab
+### 01 - Mount google drive in Colab
 
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-### 02-Create a soft link of the working directory
+### 02 - Create a soft link of the working directory
 
 ```python
 import os
@@ -21,7 +21,7 @@ os.symlink(src=full_dir_path, dst=full_dst_path, target_is_directory=True)
 os.chdir('/content')
 ```
 
-### 03-Show an image in Colab
+### 03- Show an image in Colab
 
 ```python
 from IPython.display import Image
@@ -29,7 +29,7 @@ PATH = ""
 Image(PATH)
 ```
 
-### 04-Upload kaggle.json onto Colab
+### 04 - Upload kaggle.json onto Colab
 
 ```python
 from google.colab import files
@@ -41,13 +41,13 @@ os.rename("/content/kaggle.json", "/root/.kaggle/kaggle.json")
 os.chmod("/root/.kaggle/kaggle.json", 600)
 ```
 
-### 05-GPU information
+### 05 - GPU information
 
 ```python
 !nvidia-smi
 ```
 
-### 06-Delete all Markdown or Code cells
+### 06 - Delete all Markdown or Code cells
 
 - Reference: link-1, link-2
 - [`nbformat`](https://nbformat.readthedocs.io/en/latest/api.html): Python API for working with notebook files
@@ -64,14 +64,14 @@ nbf.write(new_ntbk, "no_markdown_notebook.ipynb", version=nbf.NO_CONVERT)
 - Delete markdown: `!= "markdown"` @ line 5
 - Delete code: `== "markdown"` @ line 5
 
-### 07-Delete empty lines
+### 07 - Delete empty lines
 
 - Reference: [link](https://www.youtube.com/watch?v=jQrET5HYyAE)
 1. In VS code, install extension `Remove empty lines`.
 2. Add shortcut to remove all empty lines in document; mine is `cmd+h`.
 3. In the cell, type the shortcut.
 
-### 08-Inspect a function
+### 08 - Inspect a function
 
 - Reference: [link](https://stackoverflow.com/questions/1562759/can-python-print-a-function-definition)
 
@@ -89,7 +89,7 @@ Method 2
 MyFunction??
 ```
 
-### 09-Convert Jupyter notebook into other formats
+### 09 - Convert Jupyter notebook into other formats
 
 - [nbconvert](https://nbconvert.readthedocs.io/en/latest/)
 
