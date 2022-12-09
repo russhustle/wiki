@@ -13,6 +13,8 @@ Git
 GitHub
 ---
 
+Awesome GitHub Profile README: [![Awesome GitHub Profile README](https://img.shields.io/badge/Awesome_GitHub_Profile_README-black?logo=github)](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+
 Pre-commit
 ---
 
