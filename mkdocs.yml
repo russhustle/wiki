@@ -201,6 +201,7 @@ nav:
   - 📚 Projects:
     - index: projects/index.md
     - Wiki: projects/wiki.md
+    - Repository Template: projects/repo-template/repo-template.md
 # UI
 # top
 theme:
