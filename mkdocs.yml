@@ -42,9 +42,9 @@ nav:
       - Google Colab: tools/compute/google-colab.md
     - 🪐 Resource Management:
       - index: tools/resource/index.md
-      - 🌅 Environment: tools/resource/environment.md
-      - 🐳 Docker: tools/resource/docker.md
-      - 🧷 Kubernetes: tools/resource/kubernetes.md
+      - Environment: tools/resource/environment.md
+      - Docker: tools/resource/docker.md
+      - Kubernetes: tools/resource/kubernetes.md
     - 🔗 MLOps:
       - index: tools/mlops/index.md
       - Container for ML: tools/mlops/container_ml.md
@@ -105,7 +105,7 @@ nav:
   - 📝 Learning:
     - index: learn/index.md
     
-    - 🥮 Deep Learning:
+    - 🌊 Deep Learning:
       - index: learn/dl/index.md
       - FSDL 2022:
         - index: learn/dl/fsdl2022/index.md
@@ -171,7 +171,7 @@ nav:
         - index: learn/ml/cs329s/index.md
     - 🍣 日本語:
       - index: learn/japanese/index.md
-      - 🍢 N2红宝书:
+      - N2红宝书:
         - index:   learn/japanese/n2-vocabulary/index.md
         - 第01单元: learn/japanese/n2-vocabulary/第01单元.md
         - 第02单元: learn/japanese/n2-vocabulary/第02单元.md
