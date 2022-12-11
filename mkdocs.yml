@@ -5,7 +5,6 @@ site_author: Sihan A
 site_description: Wiki Page
 
 nav:
-
   - 🔧 Tools:
     - index: tools/index.md
     - 💻 Software Engineering:
@@ -83,8 +82,6 @@ nav:
       - Markdown: tools/other/markdown.md
       - PDF: tools/other/pdf.md
       - LaTex: tools/other/latex.md
-      
-
   - 📊 Data Science:
     - index: ds/index.md
     - ⭐️ Machine Learning:
@@ -204,6 +201,7 @@ nav:
     - index: projects/index.md
     - Wiki: projects/wiki.md
     - Repository Template: projects/repo-template/repo-template.md
+
 # UI
 # top
 theme:
