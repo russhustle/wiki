@@ -50,6 +50,10 @@ Reference
 
 - [Medium: K-means Clustering: Algorithm, Applications, Evaluation Methods, and Drawbacks](https://towardsdatascience.com/k-means-clustering-algorithm-applications-evaluation-methods-and-drawbacks-aa03e644b48a)
 - [Medium: Stop Using Elbow Method in K-means Clustering, Instead, Use this!](https://towardsdatascience.com/elbow-method-is-not-sufficient-to-find-best-k-in-k-means-clustering-fc820da0631d)
+    1. Prepare the data
+    2. Elbow method → an interval of potential k clusters
+    3. Silhouette plot
+    4. Choose the most appropriate k
 
 Variants
 
