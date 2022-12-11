@@ -103,8 +103,8 @@ nav:
       - Diffusion: ds/dl/diffusion.md
       - Concepts: ds/dl/concepts.md
     - 📷 Computer Vision:
-      - index:        ds/cv/index.md
-      - Preprocess:   ds/cv/preprocess.md
+      - index: ds/cv/index.md
+      - Preprocess: ds/cv/preprocess.md
   - 📝 Learning:
     - index: learn/index.md
     
@@ -121,51 +121,53 @@ nav:
         - 07 Foundation Models: learn/dl/fsdl2022/07-foundation.md
         - 08 ML Teams and Project Management: learn/dl/fsdl2022/08-team.md
         - 09 Ethics: learn/dl/fsdl2022/09-ethics.md
-      - Lee 2021:
-        - index: learn/dl/lee2021/index.md
-        - Course Introduction: learn/dl/lee2021/01-course-intro.md
-        - ML DL Intro: learn/dl/lee2021/01-intro-mldl.md
+      - Hung-yi Lee:
+        - index: learn/dl/lee/index.md
+        - DL 2021:
+          - index: learn/dl/lee/dl2021/index.md
+          - Course Introduction: learn/dl/lee/dl2021/01-course-intro.md
+          - ML DL Intro: learn/dl/lee/dl2021/01-intro-mldl.md
+          
+          - ML Guidance: learn/dl/lee/dl2021/02-general.md
+          - Small Gradient: learn/dl/lee/dl2021/02-small-gradient.md
+          - Adaptive LR: learn/dl/lee/dl2021/02-adaptive-lr.md
+          - Classification: learn/dl/lee/dl2021/02-classification.md
+          - CNN: learn/dl/lee/dl2021/03-cnn.md
+          - Self-Attention: learn/dl/lee/dl2021/03-attention.md
+          - PAC Learning: learn/dl/lee/dl2021/04-pac.md
+          - Batch Normalization: learn/dl/lee/dl2021/05-batchnorm.md
+          - Transformer: learn/dl/lee/dl2021/05-transformer.md
+          - GAN: learn/dl/lee/dl2021/06-gan.md
+          - BERT: learn/dl/lee/dl2021/07-bert.md
+          - Auto-Encoder: learn/dl/lee/dl2021/07-auto-encoder.md
+          - Adversarial Attack: learn/dl/lee/dl2021/08-attack.md
+          - Explainable AI: learn/dl/lee/dl2021/08-explainable.md
+          - Domain Adaptation: learn/dl/lee/dl2021/09-domain.md
+          - Reinforcement Learning: learn/dl/lee/dl2021/11-RL.md
+          - Quantum ML: learn/dl/lee/dl2021/12-quantum.md
+          - Life-long Learning: learn/dl/lee/dl2021/13-3l.md
+          - Network Compression: learn/dl/lee/dl2021/13-compression.md
+          - Meta Learning: learn/dl/lee/dl2021/14-meta.md
         
-        - ML Guidance: learn/dl/lee2021/02-general.md
-        - Small Gradient: learn/dl/lee2021/02-small-gradient.md
-        - Adaptive LR: learn/dl/lee2021/02-adaptive-lr.md
-        - Classification: learn/dl/lee2021/02-classification.md
-        - CNN: learn/dl/lee2021/03-cnn.md
-        - Self-Attention: learn/dl/lee2021/03-attention.md
-        - PAC Learning: learn/dl/lee2021/04-pac.md
-        - Batch Normalization: learn/dl/lee2021/05-batchnorm.md
-        - Transformer: learn/dl/lee2021/05-transformer.md
-        - GAN: learn/dl/lee2021/06-gan.md
-        - BERT: learn/dl/lee2021/07-bert.md
-        - Auto-Encoder: learn/dl/lee2021/07-auto-encoder.md
-        - Adversarial Attack: learn/dl/lee2021/08-attack.md
-        - Explainable AI: learn/dl/lee2021/08-explainable.md
-        - Domain Adaptation: learn/dl/lee2021/09-domain.md
-        - Reinforcement Learning: learn/dl/lee2021/11-RL.md
-        - Quantum ML: learn/dl/lee2021/12-quantum.md
-        - Life-long Learning: learn/dl/lee2021/13-3l.md
-        - Network Compression: learn/dl/lee2021/13-compression.md
-        - Meta Learning: learn/dl/lee2021/14-meta.md
-      - Lee 2022:
-        - index: learn/dl/lee2022/index.md
-        - Course Rules: learn/dl/lee2022/01-rule.md
-        - Class Introduction: learn/dl/lee2022/01-intro.md
-        - Basic Theory: learn/dl/lee2022/02-theory.md
-        - Validation: learn/dl/lee2022/03-validation.md
-        - Why Deep: learn/dl/lee2022/03-why-deep.md
-        - Xformer: learn/dl/lee2022/05-xformer.md
-        - SSL for NLP: learn/dl/lee2022/07-plm.md
-        - SSL for Speech and Image: learn/dl/lee2022/07-SSL-speech-image.md
-        - Adversarial Attack for NLP: learn/dl/lee2022/09-attacks-nlp.md
-        - More about SSL: learn/dl/lee2022/11-more-ssl.md
-        - More about Meta Learning: learn/dl/lee2022/15-more-meta.md
-
-        - Labs:
-          - index: learn/dl/lee2022/labs/index.md
-          - Colab: learn/dl/lee2022/labs/lab-01-colab.md
-          - PyTorch 1: learn/dl/lee2022/labs/lab-01-pytorch-1.md
-          - PyTorch 2: learn/dl/lee2022/labs/lab-01-pytorch-2.md
-          - Environment Setup: learn/dl/lee2022/labs/lab-01-env.md
+        - DL 2022:
+          - index: learn/dl/lee/dl2022/index.md
+          - Course Rules: learn/dl/lee/dl2022/01-rule.md
+          - Class Introduction: learn/dl/lee/dl2022/01-intro.md
+          - Basic Theory: learn/dl/lee/dl2022/02-theory.md
+          - Validation: learn/dl/lee/dl2022/03-validation.md
+          - Why Deep: learn/dl/lee/dl2022/03-why-deep.md
+          - Xformer: learn/dl/lee/dl2022/05-xformer.md
+          - SSL for NLP: learn/dl/lee/dl2022/07-plm.md
+          - SSL for Speech and Image: learn/dl/lee/dl2022/07-SSL-speech-image.md
+          - Adversarial Attack for NLP: learn/dl/lee/dl2022/09-attacks-nlp.md
+          - More about SSL: learn/dl/lee/dl2022/11-more-ssl.md
+          - More about Meta Learning: learn/dl/lee/dl2022/15-more-meta.md
+          - Labs:
+            - index: learn/dl/lee/dl2022/labs/index.md
+            - Colab: learn/dl/lee/dl2022/labs/lab-01-colab.md
+            - PyTorch 1: learn/dl/lee/dl2022/labs/lab-01-pytorch-1.md
+            - PyTorch 2: learn/dl/lee/dl2022/labs/lab-01-pytorch-2.md
+            - Environment Setup: learn/dl/lee/dl2022/labs/lab-01-env.md
     - 🚅 Machine Learning:
       - index: learn/ml/index.md
       - CS329S Machine Learning Systems Design:
