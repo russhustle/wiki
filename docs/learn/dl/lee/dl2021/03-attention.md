@@ -3,6 +3,9 @@ Self-attention
 
 ![IMG_00001](imgs/03-attention/IMG_00001.jpg)
 
+Sophisticated Input
+---
+
 ![IMG_00002](imgs/03-attention/IMG_00002.jpg)
 
 ![IMG_00003](imgs/03-attention/IMG_00003.jpg)
@@ -20,6 +23,9 @@ Self-attention
 ![IMG_00009](imgs/03-attention/IMG_00009.jpg)
 
 ![IMG_00010](imgs/03-attention/IMG_00010.jpg)
+
+Self-attention
+---
 
 ![IMG_00011](imgs/03-attention/IMG_00011.jpg)
 
@@ -51,23 +57,40 @@ Self-attention
 
 ![IMG_00025](imgs/03-attention/IMG_00025.jpg)
 
+### Multi-head Self-attention
+
 ![IMG_00026](imgs/03-attention/IMG_00026.jpg)
 
 ![IMG_00027](imgs/03-attention/IMG_00027.jpg)
 
 ![IMG_00028](imgs/03-attention/IMG_00028.jpg)
 
+### Positional Encoding
+
 ![IMG_00029](imgs/03-attention/IMG_00029.jpg)
 
 ![IMG_00030](imgs/03-attention/IMG_00030.jpg)
 
+[arXiv: Learning to Encode Position for Transformer with Continuous Dynamical Model - 2020.03](https://arxiv.org/abs/2003.09229)
+
+Applications of Self-attention
+---
+
 ![IMG_00031](imgs/03-attention/IMG_00031.jpg)
+
+### Speech 
 
 ![IMG_00032](imgs/03-attention/IMG_00032.jpg)
 
+### Image
+
 ![IMG_00033](imgs/03-attention/IMG_00033.jpg)
 
+#### GAN & Object Detection 
+
 ![IMG_00034](imgs/03-attention/IMG_00034.jpg)
+
+#### Self-attention v.s. CNN
 
 ![IMG_00035](imgs/03-attention/IMG_00035.jpg)
 
@@ -75,7 +98,13 @@ Self-attention
 
 ![IMG_00037](imgs/03-attention/IMG_00037.jpg)
 
+ViT: [arXiv: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale - 2020.10](https://arxiv.org/abs/2010.11929)
+
+#### Self-attention v.s. RNN
+
 ![IMG_00038](imgs/03-attention/IMG_00038.jpg)
+
+[arXiv: Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention - 2020.06](https://arxiv.org/abs/2006.16236)
 
 ![IMG_00039](imgs/03-attention/IMG_00039.jpg)
 
