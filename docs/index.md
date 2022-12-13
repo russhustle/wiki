@@ -1,7 +1,7 @@
 👋 Hi, I'm Sihan A
 ===
 
-![self](imgs/self.JPG){width=300}
+![self](imgs/self.png){width=300}
 
 Keep updating... (Just established on November 2022)
 
