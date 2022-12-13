@@ -1,13 +1,21 @@
 BERT
 ===
 
+### Sesame Street
+
 ![IMG_00001](imgs/07-bert/IMG_00001.jpg)
 
 ![IMG_00002](imgs/07-bert/IMG_00002.jpg)
 
 ![IMG_00003](imgs/07-bert/IMG_00003.jpg)
 
+Bigger and Bigger
+---
+
 ![IMG_00004](imgs/07-bert/IMG_00004.jpg)
+
+- 进击的巨人<u>Bert</u>olt Hoover
+- 大型语言模型<u>BERT</u>
 
 ![IMG_00005](imgs/07-bert/IMG_00005.jpg)
 
@@ -16,6 +24,11 @@ BERT
 ![IMG_00007](imgs/07-bert/IMG_00007.jpg)
 
 ![IMG_00008](imgs/07-bert/IMG_00008.jpg)
+
+BERT series
+---
+
+> Encoder only
 
 ![IMG_00009](imgs/07-bert/IMG_00009.jpg)
 
@@ -27,7 +40,15 @@ BERT
 
 ![IMG_00013](imgs/07-bert/IMG_00013.jpg)
 
+==NSP== (Next Sentence Prediction)
+
+==SOP== (Sentence Order Prediction)
+
 ![IMG_00014](imgs/07-bert/IMG_00014.jpg)
+
+### GLUE Scores
+
+==GLUE==: General Language Understanding Evaluation 
 
 ![IMG_00015](imgs/07-bert/IMG_00015.jpg)
 
@@ -99,6 +120,11 @@ BERT
 
 ![IMG_00049](imgs/07-bert/IMG_00049.jpg)
 
+GPT Series
+---
+
+> Decoder only
+
 ![IMG_00050](imgs/07-bert/IMG_00050.jpg)
 
 ![IMG_00051](imgs/07-bert/IMG_00051.jpg)
@@ -122,6 +148,8 @@ BERT
 ![IMG_00060](imgs/07-bert/IMG_00060.jpg)
 
 ![IMG_00061](imgs/07-bert/IMG_00061.jpg)
+
+==SUPERB== (Sppech processing Universal PERformance Benchmark)
 
 ![IMG_00062](imgs/07-bert/IMG_00062.jpg)
 

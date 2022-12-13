@@ -5,13 +5,23 @@ Xformer
 
 ![IMG_00002](imgs/05-xformer/IMG_00002.jpg)
 
+Review
+---
+
 ![IMG_00003](imgs/05-xformer/IMG_00003.jpg)
+
+### Fixed Pattern
 
 ![IMG_00006](imgs/05-xformer/IMG_00006.jpg)
 
 ![IMG_00007](imgs/05-xformer/IMG_00007.jpg)
 
 ![IMG_00008](imgs/05-xformer/IMG_00008.jpg)
+
+- Longformer
+- Big Bird
+
+### Learnable Pattern
 
 ![IMG_00009](imgs/05-xformer/IMG_00009.jpg)
 

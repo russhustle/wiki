@@ -3,6 +3,8 @@ Explainable AI
 
 ![IMG_00001](imgs/08-explainable/IMG_00001.jpg)
 
+Why Explainable?
+
 ![IMG_00002](imgs/08-explainable/IMG_00002.jpg)
 
 ![IMG_00003](imgs/08-explainable/IMG_00003.jpg)
