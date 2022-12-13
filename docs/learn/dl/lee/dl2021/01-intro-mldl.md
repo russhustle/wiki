@@ -11,6 +11,9 @@ Introduction of ML & DL
 
 ![IMG_00005](imgs/01-intro-mldl/IMG_00005.jpg)
 
+Find a Function (case study)
+---
+
 ![IMG_00006](imgs/01-intro-mldl/IMG_00006.jpg)
 
 ![IMG_00007](imgs/01-intro-mldl/IMG_00007.jpg)
@@ -28,6 +31,8 @@ Introduction of ML & DL
 ![IMG_00013](imgs/01-intro-mldl/IMG_00013.jpg)
 
 ![IMG_00014](imgs/01-intro-mldl/IMG_00014.jpg)
+
+==Gradient Descent==
 
 ![IMG_00015](imgs/01-intro-mldl/IMG_00015.jpg)
 
@@ -92,6 +97,8 @@ Introduction of ML & DL
 ![IMG_00045](imgs/01-intro-mldl/IMG_00045.jpg)
 
 ![IMG_00046](imgs/01-intro-mldl/IMG_00046.jpg)
+
+### ReLU
 
 ![IMG_00047](imgs/01-intro-mldl/IMG_00047.jpg)
 
