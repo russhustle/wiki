@@ -14,3 +14,7 @@ Jupyter
 
 - [Running Jupyter Notebook on a remote server](https://docs.anaconda.com/anaconda/user-guide/tasks/remote-jupyter-notebook/)
 - [How to run a Jupyter notebook on a remote server — Complete Guide [2022]](https://medium.com/@sihan-a/how-to-run-a-jupyter-notebook-on-a-remote-server-complete-guide-2022-cf8ed83f0ef3)
+
+### Hex
+
+[Khuyen Tran: Create Observable and Reproducible Notebooks with Hex - 2022.11](https://towardsdatascience.com/create-observable-and-reproducible-notebooks-with-hex-460e75818a09)
