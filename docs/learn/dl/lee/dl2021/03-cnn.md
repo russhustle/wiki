@@ -1,6 +1,8 @@
 CNN
 ===
 
+Convolutional Neural Network 
+
 ![IMG_00001](imgs/03-cnn/IMG_00001.jpg)
 
 ![IMG_00002](imgs/03-cnn/IMG_00002.jpg)
