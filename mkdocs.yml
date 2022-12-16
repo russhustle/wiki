@@ -99,6 +99,7 @@ nav:
       - Transformer: ds/dl/transformer.md
       - Diffusion: ds/dl/diffusion.md
       - Concepts: ds/dl/concepts.md
+      - CLIP: ds/dl/clip.md
     - 📷 Computer Vision:
       - index: ds/cv/index.md
       - Preprocess: ds/cv/preprocess.md
