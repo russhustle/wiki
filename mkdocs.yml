@@ -103,6 +103,8 @@ nav:
     - 📷 Computer Vision:
       - index: ds/cv/index.md
       - Preprocess: ds/cv/preprocess.md
+    - Time Series:
+      - index: ds/ts/index.md
   - 📝 Learning:
     - index: learn/index.md
     
