@@ -105,6 +105,10 @@ def plot_roc_curve(recalls, precisions, fpr, tpr, label=None):
     plt.show()
 ```
 
+[Medium: You deserve a better ROC curve - 2022.11](https://towardsdatascience.com/you-deserve-a-better-roc-curve-970617528ce8)
+
+![roc](imgs/roc-better.webp){width="400"}
+
 ### Precision-Recall curve
 
 ![precision-recall-curve](../imgs/precision-recall-curve-1.png){width="400"}
