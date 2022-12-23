@@ -13,3 +13,7 @@ Generative
 - Dalle 2
 - VAE
 - ChatGPT
+
+Video
+
+- Two Stream CNN
