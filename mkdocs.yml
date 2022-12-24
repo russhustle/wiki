@@ -100,6 +100,7 @@ nav:
       - Diffusion: ds/dl/diffusion.md
       - Concepts: ds/dl/concepts.md
       - CLIP: ds/dl/clip.md
+      - ChatGPT: ds/dl/chatgpt.md
     - 📷 Computer Vision:
       - index: ds/cv/index.md
       - Preprocess: ds/cv/preprocess.md
