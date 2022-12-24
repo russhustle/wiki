@@ -30,3 +30,10 @@ How to avoid overfitting
 8. Early stopping
 
 ## Regularization
+
+Cross Validation
+---
+
+[Medium: What is K-fold Cross Validation? - 2022.07](https://towardsdatascience.com/what-is-k-fold-cross-validation-5a7bb241d82f)
+
+![k-fold-cross-validation](imgs/k-fold-cross-validation.png)
