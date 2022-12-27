@@ -17,3 +17,4 @@ Generative
 Video
 
 - Two Stream CNN
+- I3D
