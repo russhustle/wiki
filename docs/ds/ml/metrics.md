@@ -21,7 +21,7 @@ Category
 
 ### Confusion Matrix
 
-![confusion-matrix](imgs/confusion-matrix.png){width=500}
+![confusion-matrix](imgs/confusion-matrix.png){width=400}
 
 source: [What is Confusion Matrix and Advanced Classification Metrics?](https://manisha-sirsat.blogspot.com/2019/04/confusion-matrix.html)
 

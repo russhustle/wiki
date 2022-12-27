@@ -84,7 +84,7 @@ nav:
       - LaTex: tools/other/latex.md
   - 📊 Data Science:
     - index: ds/index.md
-    - ⭐️ Machine Learning:
+    - 01 - Machine Learning:
       - index: ds/ml/index.md
       - Supervised: ds/ml/supervised.md
       - Unsupervised: ds/ml/unsupervised.md
@@ -92,10 +92,13 @@ nav:
       - Trees: ds/ml/trees.md
       - Metrics: ds/ml/metrics.md
       - Concepts: ds/ml/concepts.md
-    - 🏔 Deep Learning:
+    - 02 - Deep Learning:
       - index: ds/dl/index.md
-      - CNN: ds/dl/cnn.md
-      - RNN: ds/dl/rnn.md
+      - Architecture: 
+        - index: ds/dl/architecture/index.md
+        - CNN: ds/dl/architecture/cnn.md
+        - RNN: ds/dl/architecture/rnn.md
+        - Self-Attention: ds/dl/architecture/attention.md
       - Transformer: ds/dl/transformer.md
       - Diffusion: ds/dl/diffusion.md
       - Concepts: ds/dl/concepts.md
@@ -104,7 +107,7 @@ nav:
       - Self-Supervised:
         - index: ds/dl/self-supervised/index.md
         - MAE: ds/dl/self-supervised/mae.md
-    - 📷 Computer Vision:
+    - 03 - Computer Vision:
       - index: ds/cv/index.md
       - Preprocess: ds/cv/preprocess.md
       - Old Photo Restoration: ds/cv/old-photo/old-photo.md

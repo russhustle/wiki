@@ -7,14 +7,14 @@ Concepts
 
 ## Bias Variance Trade-off
 
-![bias-variance-1](../imgs/bias-variance-1.png)
+![bias-variance-1](../imgs/bias-variance-1.png){width="400"}
 
 |  | Bias | Variance |
 | --- | --- | --- |
 | Underfitting | high | low |
 | Overfitting | low | high |
 
-![bias-variance-2](../imgs/bias-variance-2.png)
+![bias-variance-2](../imgs/bias-variance-2.png){width="400"}
 
 ### Overfitting
 
@@ -36,4 +36,4 @@ Cross Validation
 
 [Medium: What is K-fold Cross Validation? - 2022.07](https://towardsdatascience.com/what-is-k-fold-cross-validation-5a7bb241d82f)
 
-![k-fold-cross-validation](imgs/k-fold-cross-validation.png)
+![k-fold-cross-validation](imgs/k-fold-cross-validation.png){width="400"}
