@@ -101,10 +101,15 @@ nav:
       - Concepts: ds/dl/concepts.md
       - CLIP: ds/dl/clip.md
       - ChatGPT: ds/dl/chatgpt.md
+      - Self-Supervised:
+        - index: ds/dl/self-supervised/index.md
+        - MAE: ds/dl/self-supervised/mae.md
     - 📷 Computer Vision:
       - index: ds/cv/index.md
       - Preprocess: ds/cv/preprocess.md
-      - Old Photo Restoration: ds/cv/old-photo.md
+      - Old Photo Restoration: ds/cv/old-photo/old-photo.md
+      - Feature Macthing: ds/cv/matching/matching.md
+      - Videos: ds/cv/videos/videos.md
     - Time Series:
       - index: ds/ts/index.md
   - 📝 Learning:
