@@ -113,7 +113,7 @@ nav:
       - Old Photo Restoration: ds/cv/old-photo/old-photo.md
       - Feature Macthing: ds/cv/matching/matching.md
       - Videos: ds/cv/videos/videos.md
-    - Time Series:
+    - 04 - Time Series:
       - index: ds/ts/index.md
   - 📝 Learning:
     - index: learn/index.md
