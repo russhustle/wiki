@@ -112,7 +112,10 @@ nav:
       - Preprocess: ds/cv/preprocess.md
       - Old Photo Restoration: ds/cv/old-photo/old-photo.md
       - Feature Macthing: ds/cv/matching/matching.md
-      - Videos: ds/cv/videos/videos.md
+      - Videos:
+        - index: ds/cv/videos/index.md
+        - Survey: ds/cv/videos/survey.md
+        - Two-Stream: ds/cv/videos/two-stream.md
     - 04 - Time Series:
       - index: ds/ts/index.md
   - 📝 Learning:
