@@ -111,7 +111,8 @@ nav:
       - index: ds/cv/index.md
       - Preprocess: ds/cv/preprocess.md
       - Old Photo Restoration: ds/cv/old-photo/old-photo.md
-      - Feature Macthing: ds/cv/matching/matching.md
+      - Feature Macthing:
+        - idnex: ds/cv/matching/index.md
       - Videos:
         - index: ds/cv/videos/index.md
         - Survey: ds/cv/videos/survey.md
