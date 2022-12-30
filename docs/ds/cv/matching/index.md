@@ -31,18 +31,66 @@ CAPS
 
 ![caps-architecture](imgs/caps-architecture.png)
 
-Differential matching layer
+- Differential matching layer
 
-- Probability distribution
+Probability distribution
 
 $$
 \mathcal{p} (x|x_{1},M_{1},M_{2})=\frac{\mathrm{exp} (M_{1}(x_{1})^{T}M_{2}(x))}{\Sigma_{y\in I_{2}}\mathrm{exp} (M_{1}(x_{1})^{T}M_{2}(y))}
 $$
 
-- Expectation
+Expectation
 
 $$
 \hat{x}_{2}=h_{1\rightarrow2}(\mathbf{x}_{1})=\sum\limits_{x\in \mathbf{I_2} }x\cdot p(\mathbf{x} |\mathbf{x} _{1},M_{1},M_{2})
 $$
 
-Coarse-to-fine architecture
+- Coarse-to-fine architecture
+
+COTR
+---
+
+![cotr-cover](imgs/cotr-cover.png)
+
+- Novelty: Transformer
+- Inspirations: ViT; DETR
+
+![cort-figure-1](imgs/cort-figure-1.png)
+
+- (a) Find correspondences
+- (b) Sparse matching: camera motion, multi-object motion, and object-pose changes.
+- (c) Smooth correspondence map for stereo pairs
+
+![cotr-architecture](imgs/cotr-architecture.png)
+
+- $I, I^{\prime}\rightarrow$ Image pairs (256$\times$256 size)
+- $\varepsilon \rightarrow$ CNN encoder
+- $c=\left[\varepsilon\left(I\right),\varepsilon\left(I^{\prime}\right)\right]+\mathcal{p}\left(\Omega\right)\rightarrow$ Context feature map
+    - $\mathcal{p}\rightarrow$ Linear positional concoding
+        - $\Omega\rightarrow$ Coordinate function
+        - For a given location $\mathbf{x}=\left[x,y\right]$
+        - $\mathcal{P}(\mathbf{x})= \lbrack p_{1}(\mathbf{x}),p_{2}(\mathbf{x}),\cdots,p_{\frac{N}{4}}(\mathbf{x}) \rbrack$, $N=256$
+        - $p_k(\mathbf{x})=[\sin(k \pi \mathbf{x}^T),\cos(k \pi \mathbf{x}^T)]$
+- $T_{\varepsilon}\rightarrow$ Transformer encoder
+- $T_D\rightarrow$ Transformer decoder
+- $D\rightarrow$ Fully connected layer
+- $x^{\prime}=F_{\Phi}(x|I,I^{\prime})=D(T_{D}(P(x),T_{\varepsilon}(c)))\rightarrow$ The corresponding point
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
