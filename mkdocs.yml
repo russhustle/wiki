@@ -121,6 +121,7 @@ nav:
         - index: ds/cv/videos/index.md
         - Survey: ds/cv/videos/survey.md
         - Two-Stream: ds/cv/videos/two-stream.md
+        - I3D: ds/cv/videos/i3d.md
     - 04 - Time Series:
       - index: ds/ts/index.md
   - 📝 Learning:
