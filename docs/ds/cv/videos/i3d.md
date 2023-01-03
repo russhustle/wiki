@@ -20,6 +20,10 @@ Main Contributions:
 - 大大降低了训练难度
 - 大幅提升结果，刷爆了UCF-101和HMDB-51，以后大家就用K400
 - 证明了2D→3D的可行性
+    - ResNet→ResNet3D
+    - ResNext→MFNet
+    - SENet→STCNet
+
 
 ![i3d-video-architectures](imgs/i3d-video-architectures.png)
 
