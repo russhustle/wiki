@@ -15,7 +15,7 @@ Table 1. Important deep learning models for feature matching.
 | 2020-04         | CAPS [[arXiv]()]                                       | Relative camera poses; epipolar loss; coarse-to-fine architecture |
 | 2020-12         | Patch2Pix [[arXiv]()]                                  | Detect-to-reﬁne manner                                       |
 | 2021-03         | COTR [[arXiv]()]                                       |                                                              |
-| 2021-04         | LoFTR [[arXiv]()]                                      | Transformer; coarse-to-fine                                  |
+| 2021-04         | LoFTR [[arXiv]()]                                      | Transformer                                                  |
 
 CAPS
 ---
@@ -46,6 +46,27 @@ $$
 $$
 
 - Coarse-to-fine architecture
+
+Epipolar loss![caps-epipolar-loss](imgs/caps-epipolar-loss.png)
+
+- $I_1, I_2\rightarrow$ Image pairs
+- $x_1\rightarrow$ Query point
+- $\hat{x}_2\rightarrow$ Predicted correspondence
+- $F\rightarrow$ Fundamental matrix
+- $Fx_1\rightarrow$ ground-truth epipolar line
+    - $x_2^T\cdot Fx_1=0\rightarrow$ $𝑥_1$ and $𝑥_2$ is a match
+- $\mathcal{L}_{ep}\rightarrow$ Epipolar loss (Distance between $\hat{x}_2$ and $Fx_1$)
+    - $\mathcal{L}_{ep}(x_1)=\mathrm{dist}(h_{1\rightarrow2}(x_1),Fx_1)$
+- Green point $\rightarrow$ forward-backward corresponding point of $x_1$
+- $\mathcal{L}_{cy}\rightarrow$ Cycle consistency loss (distance between $𝑥_1$ and green point)
+    - $\mathcal{L}_{cy}(x_1)=\left\|h_{2\to1}\left(h_{1\to2}(x_1)\right)-x_1\right\|_2$
+- $\mathcal{L} (\mathbf{I}_1,\mathbf{I}_2)
+    =\sum_{i=1}^{n} \left [ 
+    \mathcal{L}_{ep}(\mathbf{x} _1^i) +
+    \lambda \mathcal{L}_{cy}(\mathbf{x} _1^i)
+    \right ] \to$ Full training objective
+    - $\mathbf{x} _1^i \to$ $i$-th training point in $I_1$
+    - $\lambda\to$ A weight for the cycle consistency loss term
 
 COTR
 ---
