@@ -3,19 +3,31 @@ Feature Matching
 
 Table 1. Important deep learning models for feature matching. 
 
-| Published Month | Model Name                                             | Description                                                  |
-| --------------- | ------------------------------------------------------ | ------------------------------------------------------------ |
-| 2017-11         | Dog-AffNet-HardNet                                     |                                                              |
-| 2017-12         | SuperPoint [[arXiv](https://arxiv.org/abs/1712.07629)] | Self-supervised; homographic adaptation                      |
-| 2018-10         | NCNet [[arXiv]()]                                      | End-to-end CNN; weak supervision                             |
-| 2019-05         | D2Net [[arXiv]()]                                      |                                                              |
-| 2019-06         | R2D2 [[arXiv]()]                                       | Repeatable and reliable keypoints                            |
-| 2019-11         | SuperGlue [[arXiv]()]                                  | Optimal transport; GNN                                       |
-| 2020-04         | SparseNCNet [[arXiv]()]                                |                                                              |
-| 2020-04         | CAPS [[arXiv]()]                                       | Relative camera poses; epipolar loss; coarse-to-fine architecture |
-| 2020-12         | Patch2Pix [[arXiv]()]                                  | Detect-to-reﬁne manner                                       |
-| 2021-03         | COTR [[arXiv]()]                                       |                                                              |
-| 2021-04         | LoFTR [[arXiv]()]                                      | Transformer                                                  |
+| Published Month | Model Name                                             | Description                                                  | Organization |
+| --------------- | ------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
+| 2017-07         | MagicPoint [[arXiv](https://arxiv.org/abs/1707.07410)] |                                                              |              |
+| 2017-11         | Dog-AffNet-HardNet                                     |                                                              |              |
+| 2017-12         | SuperPoint [[arXiv](https://arxiv.org/abs/1712.07629)] | Self-supervised; homographic adaptation                      |              |
+| 2018-10         | NCNet [[arXiv]()]                                      | End-to-end CNN; weak supervision                             |              |
+| 2019-05         | D2Net [[arXiv]()]                                      |                                                              |              |
+| 2019-06         | R2D2 [[arXiv]()]                                       | Repeatable and reliable keypoints                            |              |
+| 2019-11         | SuperGlue [[arXiv]()]                                  | Optimal transport; GNN                                       |              |
+| 2020-04         | SparseNCNet [[arXiv]()]                                |                                                              |              |
+| 2020-04         | CAPS [[arXiv]()]                                       | Relative camera poses; epipolar loss; coarse-to-fine architecture |              |
+| 2020-12         | Patch2Pix [[arXiv]()]                                  | Detect-to-reﬁne manner                                       |              |
+| 2021-03         | COTR [[arXiv]()]                                       |                                                              |              |
+| 2021-04         | LoFTR [[arXiv]()]                                      | Transformer                                                  |              |
+
+MagicPoint
+---
+
+![magicpoint-cover](imgs/magicpoint-cover.png)
+
+![magicpoint-overview](imgs/magicpoint-overview.png)
+
+![magicpoint-magicpoint](imgs/magicpoint-magicpoint.png)
+
+![magicpoint-magicwarp](imgs/magicpoint-magicwarp.png)
 
 CAPS
 ---
