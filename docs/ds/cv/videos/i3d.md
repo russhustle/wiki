@@ -31,6 +31,10 @@ Main Contributions:
     - CNN提取特征，LSTM处理时序信息，本质上还是看成图像分类问题
     - 效果不好
 2. 3D CNN
+    - Important characteristics: Directly create hierarchical representations of spatio-temporal data
+    - Issues:
+        1. Much more parameters than 2D models, because of the additional kernel dimension → harder to train 
+        2. Preclude the benefits of ImageNet pre-training
 3. Two-Stream network
 4. 3D-Fused Two-Stream: b+c
 5. (Proposed) Two-Stream Inflated 3D
