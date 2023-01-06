@@ -4451,14 +4451,35 @@
 
 <h1 id="feature-pyramid-network">Feature Pyramid Network<a class="headerlink" href="#feature-pyramid-network" title="Permanent link">&para;</a></h1>
 <p><img alt="fpn-cover" src="../imgs/fpn-cover.png" /></p>
+<ul>
+<li>
 <p>FPN on PyTorch: <a href="https://pytorch.org/vision/main/generated/torchvision.ops.FeaturePyramidNetwork.html">torchvision.ops.FeaturePyramidNetwork</a></p>
+</li>
+<li>
+<p>Prerequisites: Region Proposal Network (RPN); Region-based Detectors (e.g. Fast R-CNN); RoI Pooling </p>
+</li>
+</ul>
+<p><img alt="fpn-example" src="../imgs/fpn-example.png" width="400" /></p>
+<p><img alt="fpn-fpn-block" src="../imgs/fpn-fpn-block.png" width="400" /></p>
+<ul>
+<li><span class="arithmatex">\(\left \{ C_1,C_2,C_3,C_4 \right \} \to\)</span> Output of the last residual blocks for conv2, conv3, conv4 and conv5 in ResNets</li>
+<li><span class="arithmatex">\(\left \{ 4,8,16,32 \right \} \to\)</span> Strides of pixels with respect to the input image → i.e., <span class="arithmatex">\(C_2\)</span> will be 4 times smaller</li>
+<li><span class="arithmatex">\(\left \{ M_1,M_2,M_3,M_4 \right \} \to\)</span> </li>
+<li><span class="arithmatex">\(\left \{ P_1,P_2,P_3,P_4 \right \} \to\)</span> Final set of feature maps corresponding to <span class="arithmatex">\(\left \{ C_1,C_2,C_3,C_4 \right \}\)</span></li>
+</ul>
+<p><img alt="fpn-top-down" src="../imgs/fpn-top-down.png" width="400" /></p>
+<p>Steps:</p>
+<ol>
+<li>Bottom-up pathway: Produce spatially coarser, but semantically stronger feature maps by adding strides to Conv2d</li>
+<li>Top-down pathway &amp; lateral connections</li>
+</ol>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-12-30T15:45:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-12-30</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-06T05:13:44+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-06</span>
       
         <br>
         Created:
