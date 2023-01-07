@@ -115,7 +115,7 @@ nav:
         - FPN: ds/cv/detection/fpn.md
       - Old Photo Restoration: ds/cv/old-photo/old-photo.md
       - Feature Macthing:
-        - idnex: ds/cv/matching/index.md
+        - index: ds/cv/matching/index.md
         - LOFTR: ds/cv/matching/loftr.md
       - Videos:
         - index: ds/cv/videos/index.md
