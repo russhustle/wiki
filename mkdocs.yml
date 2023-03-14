@@ -187,6 +187,8 @@ nav:
             - PyTorch 1: learn/dl/lee/dl2022/labs/lab-01-pytorch-1.md
             - PyTorch 2: learn/dl/lee/dl2022/labs/lab-01-pytorch-2.md
             - Environment Setup: learn/dl/lee/dl2022/labs/lab-01-env.md
+        - DL 2023:
+          - index: learn/dl/lee/dl2023/index.md
     - 🚅 Machine Learning:
       - index: learn/ml/index.md
       - CS329S Machine Learning Systems Design:
