@@ -280,7 +280,7 @@ extra:
       name: Medium | Sihan A
   analytics:
     provider: google
-    property: G-359296839
+    property: G-VN5HM0TQ50
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
