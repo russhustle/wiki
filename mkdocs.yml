@@ -278,7 +278,9 @@ extra:
     - icon: fontawesome/brands/medium
       link: https://medium.com/@sihan-a
       name: Medium | Sihan A
-
+  analytics:
+    provider: google
+    property: G-359296839
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
