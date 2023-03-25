@@ -6,6 +6,56 @@ Commands
 
 - [万字详解，吃透 Linux 常用命令！](https://zhuanlan.zhihu.com/p/537109192)
 
+|      |                    |                  |      |
+| ---- | ------------------ | ---------------- | ---- |
+| 1    | `ls`               | `ls [opt] [dir]` |      |
+| 2    | file               |                  |      |
+| 3    | pwd                |                  |      |
+| 4    | whoami             |                  |      |
+| 5    | cd                 |                  |      |
+|      | 相对路径和绝对路径 |                  |      |
+| 6    | which              |                  |      |
+| 7    | touch              |                  |      |
+| 8    | mkdir              |                  |      |
+|      | 添加用户信任关系   |                  |      |
+| 9    | rmdir              |                  |      |
+|      | rm                 |                  |      |
+|      | man                |                  |      |
+|      | cp                 |                  |      |
+|      | mv                 |                  |      |
+|      | 编辑               |                  |      |
+|      | cat                |                  |      |
+|      | echo               |                  |      |
+|      | 重定向             |                  |      |
+|      | more               |                  |      |
+|      | less               |                  |      |
+|      | head               |                  |      |
+|      | tail               |                  |      |
+|      | 管道操作           |                  |      |
+|      | date               |                  |      |
+|      | cal                |                  |      |
+|      | find               |                  |      |
+|      | grep               |                  |      |
+|      | zip/unzip          |                  |      |
+|      | tar                |                  |      |
+|      | bc                 |                  |      |
+|      | uname              |                  |      |
+|      | shutdown           |                  |      |
+|      | stat               |                  |      |
+|      | Linux下的三个时间  |                  |      |
+|      | touch补充          |                  |      |
+|      | Linux中的热键      |                  |      |
+|      | 指令一览           |                  |      |
+
+
+
+|         |      |
+| ------- | ---- |
+| `ls`    |      |
+| `ls -a` |      |
+| `ls -l` |      |
+| `ll`    |      |
+
 Multiplexer
 ---
 
